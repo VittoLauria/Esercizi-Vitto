@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\bin\Debug\net8.0\04-operatori.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\bin\Debug\net8.0\04-operatori.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\bin\Debug\net8.0\04-operatori.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\bin\Debug\net8.0\04-operatori.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\bin\Debug\net8.0\04-operatori.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\obj\Debug\net8.0\04-operatori.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\obj\Debug\net8.0\04-operatori.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\obj\Debug\net8.0\04-operatori.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\obj\Debug\net8.0\04-operatori.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\obj\Debug\net8.0\04-operatori.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\obj\Debug\net8.0\04-operatori.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\obj\Debug\net8.0\refint\04-operatori.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\obj\Debug\net8.0\04-operatori.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\obj\Debug\net8.0\04-operatori.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\04-operatori\obj\Debug\net8.0\ref\04-operatori.dll
