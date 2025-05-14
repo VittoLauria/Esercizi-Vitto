@@ -1,0 +1,15 @@
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\bin\Debug\net8.0\02_tipi-di-dati.exe
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\bin\Debug\net8.0\02_tipi-di-dati.deps.json
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\bin\Debug\net8.0\02_tipi-di-dati.runtimeconfig.json
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\bin\Debug\net8.0\02_tipi-di-dati.dll
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\bin\Debug\net8.0\02_tipi-di-dati.pdb
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\obj\Debug\net8.0\02_tipi-di-dati.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\obj\Debug\net8.0\02_tipi-di-dati.AssemblyInfoInputs.cache
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\obj\Debug\net8.0\02_tipi-di-dati.AssemblyInfo.cs
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\obj\Debug\net8.0\02_tipi-di-dati.csproj.CoreCompileInputs.cache
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\obj\Debug\net8.0\02_tipi-di-dati.sourcelink.json
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\obj\Debug\net8.0\02_tipi-di-dati.dll
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\obj\Debug\net8.0\refint\02_tipi-di-dati.dll
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\obj\Debug\net8.0\02_tipi-di-dati.pdb
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\obj\Debug\net8.0\02_tipi-di-dati.genruntimeconfig.cache
+c:\Users\Allievo\Documents\dev2_2024\Esercitazioni\02_tipi-di-dati\obj\Debug\net8.0\ref\02_tipi-di-dati.dll
