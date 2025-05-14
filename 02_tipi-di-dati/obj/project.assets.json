@@ -8,25 +8,28 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Allievo\\.nuget\\packages\\": {}
+    "C:\\Users\\devops3\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Allievo\\Documents\\dev2_2024\\04 - Esercitazioni\\02_tipi-di-dati\\02_tipi-di-dati.csproj",
+      "projectUniqueName": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\02_tipi-di-dati\\02_tipi-di-dati.csproj",
       "projectName": "02_tipi-di-dati",
-      "projectPath": "C:\\Users\\Allievo\\Documents\\dev2_2024\\04 - Esercitazioni\\02_tipi-di-dati\\02_tipi-di-dati.csproj",
-      "packagesPath": "C:\\Users\\Allievo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Allievo\\Documents\\dev2_2024\\04 - Esercitazioni\\02_tipi-di-dati\\obj\\",
+      "projectPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\02_tipi-di-dati\\02_tipi-di-dati.csproj",
+      "packagesPath": "C:\\Users\\devops3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\02_tipi-di-dati\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Allievo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\devops3\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Users\\Allievo\\AppData\\Roaming\\NuGet\\SqlClient": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -39,6 +42,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -60,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.311/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
