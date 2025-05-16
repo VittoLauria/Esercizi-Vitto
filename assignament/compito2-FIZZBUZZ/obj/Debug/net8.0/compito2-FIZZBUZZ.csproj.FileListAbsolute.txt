@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\obj\Debug\net8.0\compito2-FIZZBUZZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\obj\Debug\net8.0\compito2-FIZZBUZZ.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\obj\Debug\net8.0\compito2-FIZZBUZZ.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\obj\Debug\net8.0\compito2-FIZZBUZZ.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\obj\Debug\net8.0\compito2-FIZZBUZZ.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\bin\Debug\net8.0\compito2-FIZZBUZZ.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\bin\Debug\net8.0\compito2-FIZZBUZZ.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\bin\Debug\net8.0\compito2-FIZZBUZZ.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\bin\Debug\net8.0\compito2-FIZZBUZZ.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\bin\Debug\net8.0\compito2-FIZZBUZZ.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\obj\Debug\net8.0\compito2-FIZZBUZZ.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\obj\Debug\net8.0\refint\compito2-FIZZBUZZ.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\obj\Debug\net8.0\compito2-FIZZBUZZ.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\obj\Debug\net8.0\compito2-FIZZBUZZ.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito2-FIZZBUZZ\obj\Debug\net8.0\ref\compito2-FIZZBUZZ.dll

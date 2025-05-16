@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\obj\Debug\net8.0\compito3-elencoPartecipanti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\obj\Debug\net8.0\compito3-elencoPartecipanti.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\obj\Debug\net8.0\compito3-elencoPartecipanti.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\obj\Debug\net8.0\compito3-elencoPartecipanti.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\obj\Debug\net8.0\compito3-elencoPartecipanti.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\bin\Debug\net8.0\compito3-elencoPartecipanti.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\bin\Debug\net8.0\compito3-elencoPartecipanti.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\bin\Debug\net8.0\compito3-elencoPartecipanti.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\bin\Debug\net8.0\compito3-elencoPartecipanti.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\bin\Debug\net8.0\compito3-elencoPartecipanti.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\obj\Debug\net8.0\compito3-elencoPartecipanti.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\obj\Debug\net8.0\refint\compito3-elencoPartecipanti.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\obj\Debug\net8.0\compito3-elencoPartecipanti.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\obj\Debug\net8.0\compito3-elencoPartecipanti.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito3-elencoPartecipanti\obj\Debug\net8.0\ref\compito3-elencoPartecipanti.dll

@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\bin\Debug\net8.0\06-Cicli.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\bin\Debug\net8.0\06-Cicli.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\bin\Debug\net8.0\06-Cicli.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\bin\Debug\net8.0\06-Cicli.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\bin\Debug\net8.0\06-Cicli.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\obj\Debug\net8.0\06-Cicli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\obj\Debug\net8.0\06-Cicli.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\obj\Debug\net8.0\06-Cicli.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\obj\Debug\net8.0\06-Cicli.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\obj\Debug\net8.0\06-Cicli.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\obj\Debug\net8.0\06-Cicli.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\obj\Debug\net8.0\refint\06-Cicli.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\obj\Debug\net8.0\06-Cicli.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\obj\Debug\net8.0\06-Cicli.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\06-Cicli\obj\Debug\net8.0\ref\06-Cicli.dll
