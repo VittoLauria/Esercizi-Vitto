@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1\\compito1.csproj",
+      "projectUniqueName": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1-calcolatrice\\compito1.csproj",
       "projectName": "compito1",
-      "projectPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1\\compito1.csproj",
+      "projectPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1-calcolatrice\\compito1.csproj",
       "packagesPath": "C:\\Users\\devops3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1\\obj\\",
+      "outputPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1-calcolatrice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

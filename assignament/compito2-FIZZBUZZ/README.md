@@ -13,3 +13,11 @@ Il FizzBuzz è un problema comune di programmazione che viene spesso utilizzato 
 - Assicurati di stampare il numero se non e multiplo di 3 o 5
 
 ### Esempio di codice
+
+
+# FIZZBUZZ (versine 2)
+Implementaione della prima versione del programma FizzBuzz:
+- dove il programma chiede all'utente di inserire il numero (quindi un numero qualsiasi) ed il programma scrive se il numero è Fizz, Buzz o FizzBuzz
+## Suggerimenti
+- utilizzare un ciclo while per continuare a chiedere all' utente di inserire un numero fino a quando non decide di terminare
+- utilizzare i metodi console per acquisire l'imput dall'utente

@@ -1,4 +1,5 @@
-﻿List<string> elencoPart = new List<string>();
+﻿/*
+List<string> elencoPart = new List<string>();
 
 
 while (true)
@@ -12,11 +13,52 @@ while (true)
 
 foreach (string part in elencoPart) 
 {
-    Console.WriteLine(part); 
+    Console.WriteLine(elencoPart); 
 }
 
+*/
 
+List<string> Squadra1 = new List<string>();
+List<string> Squadra2 = new List<string>();
+string nome;
 
+while (true)
+{
+    Console.WriteLine("Inserisci il nome del partecipante");
+    nome = Console.ReadLine();
+    if (nome == "fine")
+    {
+        break;
+    }
+    
+    Console.WriteLine("A quale squadra vuoi aggiungere il partecipante? (1 o 2)");
+    string scelta = Console.ReadLine();
+
+    if (scelta == "1")
+    {
+        Squadra1.Add(nome);
+    }
+    else if (scelta == "2")
+    {
+        Squadra2.Add(nome);
+    }
+
+    if (nome == "fine")
+    {
+        break;
+    }
+}
+ Console.WriteLine("Partecipanti Squadra 1:");
+foreach (string partecipante in Squadra1)
+{
+    Console.WriteLine(partecipante);
+}
+
+Console.WriteLine("Partecipanti Squadra 2:");
+foreach (string partecipante in Squadra2)
+{
+    Console.WriteLine(partecipante);
+}
 
 
 
