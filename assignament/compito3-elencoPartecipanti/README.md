@@ -37,6 +37,17 @@ quando l'utente scrive fine, il programma stampa l'elenco dei partecipanti.
 - se l'inserimento dell'utente è "fine", esci dal ciclo
 - stampa l'elenco dei partecipanti di entrambe le squadre
 
+# elenco part (versione3)
+In quetsa versione approfondiamo alcuni dei principali metodi di string.
+ i metodi che possiamo implementare sono: 
+ - lenght : restituisce la lunghezza della stringa
+ - IsNullOrWhiteSpace : verifica se la stringa è nulla o vuota o contiene solo spazi bianchi prima che venga inserita dall'utente
+ - Trim : rimuove gli spazi bianchi verificando che l'imput dell'utente sia formattato correttamente
+ - ToLower : in modo da convertire in minuscuolo quando l'utente inserisce fine.
+
+Lo scopo è qullo di essere sicuri che l' inserimento dei dati dell'utente sia corretto
+## Suggerimenti
+usare una condizione (if) che se l'input inserito dall'utente e vuoto(o contiene spazi bianchi) il programma chieda all'utente di inserire nuovamente il dato completo(sia nome che numero della squadra)
 
 
 

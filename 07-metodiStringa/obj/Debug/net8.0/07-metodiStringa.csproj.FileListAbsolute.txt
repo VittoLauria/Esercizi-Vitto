@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\obj\Debug\net8.0\07-metodiStringa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\obj\Debug\net8.0\07-metodiStringa.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\obj\Debug\net8.0\07-metodiStringa.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\obj\Debug\net8.0\07-metodiStringa.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\obj\Debug\net8.0\07-metodiStringa.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\bin\Debug\net8.0\07-metodiStringa.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\bin\Debug\net8.0\07-metodiStringa.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\bin\Debug\net8.0\07-metodiStringa.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\bin\Debug\net8.0\07-metodiStringa.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\bin\Debug\net8.0\07-metodiStringa.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\obj\Debug\net8.0\07-metodiStringa.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\obj\Debug\net8.0\refint\07-metodiStringa.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\obj\Debug\net8.0\07-metodiStringa.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\obj\Debug\net8.0\07-metodiStringa.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\07-metodiStringa\obj\Debug\net8.0\ref\07-metodiStringa.dll

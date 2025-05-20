@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("compito3-elencoPartecipanti")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("07-metodiStringa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32789092c36de699deeaae022070c9b649e9be02")]
-[assembly: System.Reflection.AssemblyProductAttribute("compito3-elencoPartecipanti")]
-[assembly: System.Reflection.AssemblyTitleAttribute("compito3-elencoPartecipanti")]
+[assembly: System.Reflection.AssemblyProductAttribute("07-metodiStringa")]
+[assembly: System.Reflection.AssemblyTitleAttribute("07-metodiStringa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.
