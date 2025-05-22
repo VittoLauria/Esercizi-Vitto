@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\obj\Debug\net8.0\compito5-EsArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\obj\Debug\net8.0\compito5-EsArray.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\obj\Debug\net8.0\compito5-EsArray.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\obj\Debug\net8.0\compito5-EsArray.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\obj\Debug\net8.0\compito5-EsArray.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\bin\Debug\net8.0\compito5-EsArray.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\bin\Debug\net8.0\compito5-EsArray.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\bin\Debug\net8.0\compito5-EsArray.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\bin\Debug\net8.0\compito5-EsArray.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\bin\Debug\net8.0\compito5-EsArray.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\obj\Debug\net8.0\compito5-EsArray.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\obj\Debug\net8.0\refint\compito5-EsArray.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\obj\Debug\net8.0\compito5-EsArray.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\obj\Debug\net8.0\compito5-EsArray.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito5-EsArray\obj\Debug\net8.0\ref\compito5-EsArray.dll
