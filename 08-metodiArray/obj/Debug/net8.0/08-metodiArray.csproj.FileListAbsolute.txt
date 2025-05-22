@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\obj\Debug\net8.0\08-metodiArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\obj\Debug\net8.0\08-metodiArray.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\obj\Debug\net8.0\08-metodiArray.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\obj\Debug\net8.0\08-metodiArray.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\obj\Debug\net8.0\08-metodiArray.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\bin\Debug\net8.0\08-metodiArray.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\bin\Debug\net8.0\08-metodiArray.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\bin\Debug\net8.0\08-metodiArray.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\bin\Debug\net8.0\08-metodiArray.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\bin\Debug\net8.0\08-metodiArray.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\obj\Debug\net8.0\08-metodiArray.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\obj\Debug\net8.0\refint\08-metodiArray.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\obj\Debug\net8.0\08-metodiArray.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\obj\Debug\net8.0\08-metodiArray.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\08-metodiArray\obj\Debug\net8.0\ref\08-metodiArray.dll

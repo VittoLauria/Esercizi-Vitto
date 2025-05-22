@@ -38,6 +38,12 @@ foreach (string n in nomiArray)
     Console.Writeline(n);
 }
 ```
+// Join = Unisce gli elementi di un array in una stringa usando un separatore
+```csharp
+string nomiUniti = string.join(", " nomi);
+Console.WriteLine(nomiUniti);
+```
+
 // replace = sostituisce una sottostringa con un'altra sottostringa
 ```csharp
 string sostituzione = nome.Replace("Nome", "Cognome");
