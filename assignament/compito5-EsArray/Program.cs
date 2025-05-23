@@ -70,7 +70,7 @@ else
 {
     Console.WriteLine($"Il valore {numeroDaTrovare} non è stato trovato nell'array.");
 }
-*/
+
 
 int [] numeri = { 8, 12, 20, 16 };
 int [] numeri2 = new int[numeri.Length];
@@ -86,3 +86,39 @@ for (int i = 0; i < numeri2.Length; i++)
     Array.Reverse(numeri2);
  Console.WriteLine(string.Join(", ", numeri2));
 }
+*/
+
+// chide all'utente di inserire un numero di elementi per un array
+Console.WriteLine("INserisci la lunghezza dell'Array");
+// crea un array della lunghezza specificata dall'utente
+int lunghezza = int.Parse(Console.ReadLine());
+int[] numeri = new int [lunghezza];
+// chiedi all'utente di inserire ciascun elemento
+for (int i = 0; i < lunghezza; i++)
+{
+    Console.WriteLine("Inserisci il numero");
+    numeri[i] = int.Parse(Console.ReadLine());
+} 
+
+
+
+// chiedi all'utente di inserire un numero da cercare nell'array
+Console.WriteLine("dimmi un numero che cercheremo all'interno dell'array");
+int numDaCercare = int.Parse(Console.ReadLine());
+
+for (int i = 0; i < numeri.Length; i++)
+{
+
+    if (numeri[i] == numDaCercare)
+    {
+        Console.WriteLine("Numero trovato");
+        break;
+    }
+    else
+    {
+        Console.WriteLine("Non trovato");
+    }
+}
+// scorri gli elementi con un foreach
+   
+

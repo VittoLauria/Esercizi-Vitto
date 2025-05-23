@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("compito5-EsArray")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("09-metodiListe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+508f769fd3e1da97c173ffc8e0ad1ea981262b2c")]
-[assembly: System.Reflection.AssemblyProductAttribute("compito5-EsArray")]
-[assembly: System.Reflection.AssemblyTitleAttribute("compito5-EsArray")]
+[assembly: System.Reflection.AssemblyProductAttribute("09-metodiListe")]
+[assembly: System.Reflection.AssemblyTitleAttribute("09-metodiListe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.

@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\bin\Debug\net8.0\09-metodiListe.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\bin\Debug\net8.0\09-metodiListe.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\bin\Debug\net8.0\09-metodiListe.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\bin\Debug\net8.0\09-metodiListe.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\bin\Debug\net8.0\09-metodiListe.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\obj\Debug\net8.0\09-metodiListe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\obj\Debug\net8.0\09-metodiListe.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\obj\Debug\net8.0\09-metodiListe.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\obj\Debug\net8.0\09-metodiListe.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\obj\Debug\net8.0\09-metodiListe.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\obj\Debug\net8.0\09-metodiListe.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\obj\Debug\net8.0\refint\09-metodiListe.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\obj\Debug\net8.0\09-metodiListe.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\obj\Debug\net8.0\09-metodiListe.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\09-metodiListe\obj\Debug\net8.0\ref\09-metodiListe.dll
