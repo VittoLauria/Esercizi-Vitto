@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\obj\Debug\net8.0\10-Random.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\obj\Debug\net8.0\10-Random.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\obj\Debug\net8.0\10-Random.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\obj\Debug\net8.0\10-Random.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\obj\Debug\net8.0\10-Random.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\bin\Debug\net8.0\10-Random.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\bin\Debug\net8.0\10-Random.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\bin\Debug\net8.0\10-Random.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\bin\Debug\net8.0\10-Random.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\bin\Debug\net8.0\10-Random.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\obj\Debug\net8.0\10-Random.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\obj\Debug\net8.0\refint\10-Random.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\obj\Debug\net8.0\10-Random.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\obj\Debug\net8.0\10-Random.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\10-Random\obj\Debug\net8.0\ref\10-Random.dll
