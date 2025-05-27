@@ -1,0 +1,5 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\11-Dizionario-Liste\obj\Debug\net8.0\11-Dizionario-Liste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\11-Dizionario-Liste\obj\Debug\net8.0\11-Dizionario-Liste.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\11-Dizionario-Liste\obj\Debug\net8.0\11-Dizionario-Liste.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\11-Dizionario-Liste\obj\Debug\net8.0\11-Dizionario-Liste.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\11-Dizionario-Liste\obj\Debug\net8.0\11-Dizionario-Liste.sourcelink.json
