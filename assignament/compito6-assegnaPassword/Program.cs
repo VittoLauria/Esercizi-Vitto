@@ -1,7 +1,7 @@
 ﻿//FATTO DAL PROF
 // L'utente deve poter scegliere la lunghezza della password
-Console.WriteLine("Inserisci la lunghezza della password (tra 5 e 8):");
-if (!int.TryParse(Console.ReadLine(), out int lunghezza) || lunghezza < 5 || lunghezza > 8) ;
+Console.WriteLine("Inserisci la lunghezza della password (tra 5 e 8): ");
+if (!int.TryParse(Console.ReadLine(), out int lunghezza) || lunghezza < 5 || lunghezza > 8) 
 {
     Console.WriteLine("Lunghezza non valida.");
     return;
@@ -9,7 +9,7 @@ if (!int.TryParse(Console.ReadLine(), out int lunghezza) || lunghezza < 5 || lun
 
 
 //Puoi creare gruppi di caratteri(lettere maiuscole,minuscole,numeri e caratteri speciali) e selezionare casualmente un carattere da ciascun gruppo
-string caratteri = "ABCDEFGHILMNOPQRSTUVZabcdefeghilmnopqrstuvz0123456789@#*!$%&";
+string caratteri = "ABCDEFGHILMNOPQRSTUVZabcdefeghilmnopqrstuvz0123456789@#*!$%&eeeeeeeeee";
 
 //Usa classe random per generare caratteri casuali
 Random random = new Random();

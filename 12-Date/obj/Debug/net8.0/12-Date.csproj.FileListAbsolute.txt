@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\bin\Debug\net8.0\12-Date.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\bin\Debug\net8.0\12-Date.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\bin\Debug\net8.0\12-Date.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\bin\Debug\net8.0\12-Date.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\bin\Debug\net8.0\12-Date.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\obj\Debug\net8.0\12-Date.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\obj\Debug\net8.0\12-Date.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\obj\Debug\net8.0\12-Date.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\obj\Debug\net8.0\12-Date.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\obj\Debug\net8.0\12-Date.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\obj\Debug\net8.0\12-Date.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\obj\Debug\net8.0\refint\12-Date.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\obj\Debug\net8.0\12-Date.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\obj\Debug\net8.0\12-Date.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Date\obj\Debug\net8.0\ref\12-Date.dll

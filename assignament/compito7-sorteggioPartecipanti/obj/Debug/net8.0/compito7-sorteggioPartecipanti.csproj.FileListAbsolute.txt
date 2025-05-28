@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\obj\Debug\net8.0\compito7-sorteggioPartecipanti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\obj\Debug\net8.0\compito7-sorteggioPartecipanti.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\obj\Debug\net8.0\compito7-sorteggioPartecipanti.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\obj\Debug\net8.0\compito7-sorteggioPartecipanti.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\obj\Debug\net8.0\compito7-sorteggioPartecipanti.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\bin\Debug\net8.0\compito7-sorteggioPartecipanti.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\bin\Debug\net8.0\compito7-sorteggioPartecipanti.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\bin\Debug\net8.0\compito7-sorteggioPartecipanti.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\bin\Debug\net8.0\compito7-sorteggioPartecipanti.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\bin\Debug\net8.0\compito7-sorteggioPartecipanti.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\obj\Debug\net8.0\compito7-sorteggioPartecipanti.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\obj\Debug\net8.0\refint\compito7-sorteggioPartecipanti.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\obj\Debug\net8.0\compito7-sorteggioPartecipanti.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\obj\Debug\net8.0\compito7-sorteggioPartecipanti.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito7-sorteggioPartecipanti\obj\Debug\net8.0\ref\compito7-sorteggioPartecipanti.dll
