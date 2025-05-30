@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("compito5-EsArray")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+508f769fd3e1da97c173ffc8e0ad1ea981262b2c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d5c73e6ee67c75bec6c6aa247b75ce4492e3d11")]
 [assembly: System.Reflection.AssemblyProductAttribute("compito5-EsArray")]
 [assembly: System.Reflection.AssemblyTitleAttribute("compito5-EsArray")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

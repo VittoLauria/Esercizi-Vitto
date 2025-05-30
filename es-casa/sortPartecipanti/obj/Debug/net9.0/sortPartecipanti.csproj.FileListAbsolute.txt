@@ -1,0 +1,15 @@
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/bin/Debug/net9.0/sortPartecipanti
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/bin/Debug/net9.0/sortPartecipanti.deps.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/bin/Debug/net9.0/sortPartecipanti.runtimeconfig.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/bin/Debug/net9.0/sortPartecipanti.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/bin/Debug/net9.0/sortPartecipanti.pdb
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/obj/Debug/net9.0/sortPartecipanti.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/obj/Debug/net9.0/sortPartecipanti.AssemblyInfoInputs.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/obj/Debug/net9.0/sortPartecipanti.AssemblyInfo.cs
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/obj/Debug/net9.0/sortPartecipanti.csproj.CoreCompileInputs.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/obj/Debug/net9.0/sortPartecipanti.sourcelink.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/obj/Debug/net9.0/sortPartecipanti.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/obj/Debug/net9.0/refint/sortPartecipanti.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/obj/Debug/net9.0/sortPartecipanti.pdb
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/obj/Debug/net9.0/sortPartecipanti.genruntimeconfig.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/sortPartecipanti/obj/Debug/net9.0/ref/sortPartecipanti.dll

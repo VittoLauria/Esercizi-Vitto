@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "X2yaFNHKIiU=",
+  "dgSpecHash": "HeHvprTDR/w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito9-CalcConFunzioni\\compito9-CalcConFunzioni.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito9-CalcConFunzioni/compito9-CalcConFunzioni.csproj",
+  "expectedPackageFiles": [
+    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/vittolauri19/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.16/microsoft.netcore.app.host.osx-arm64.8.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

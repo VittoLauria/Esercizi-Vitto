@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "compito10-sorteggioFunz/1.0.0": {
+        "runtime": {
+          "compito10-sorteggioFunz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "compito10-sorteggioFunz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

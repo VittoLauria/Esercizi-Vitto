@@ -1,0 +1,15 @@
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/Debug/net9.0/dizionario-squadre.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/Debug/net9.0/dizionario-squadre.AssemblyInfoInputs.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/Debug/net9.0/dizionario-squadre.AssemblyInfo.cs
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/Debug/net9.0/dizionario-squadre.csproj.CoreCompileInputs.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/Debug/net9.0/dizionario-squadre.sourcelink.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/bin/Debug/net9.0/dizionario-squadre
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/bin/Debug/net9.0/dizionario-squadre.deps.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/bin/Debug/net9.0/dizionario-squadre.runtimeconfig.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/bin/Debug/net9.0/dizionario-squadre.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/bin/Debug/net9.0/dizionario-squadre.pdb
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/Debug/net9.0/dizionario-squadre.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/Debug/net9.0/refint/dizionario-squadre.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/Debug/net9.0/dizionario-squadre.pdb
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/Debug/net9.0/dizionario-squadre.genruntimeconfig.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/Debug/net9.0/ref/dizionario-squadre.dll
