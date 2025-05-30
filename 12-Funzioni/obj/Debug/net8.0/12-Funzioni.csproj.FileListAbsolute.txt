@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\bin\Debug\net8.0\12-Funzioni.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\bin\Debug\net8.0\12-Funzioni.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\bin\Debug\net8.0\12-Funzioni.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\bin\Debug\net8.0\12-Funzioni.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\bin\Debug\net8.0\12-Funzioni.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\obj\Debug\net8.0\12-Funzioni.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\obj\Debug\net8.0\12-Funzioni.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\obj\Debug\net8.0\12-Funzioni.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\obj\Debug\net8.0\12-Funzioni.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\obj\Debug\net8.0\12-Funzioni.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\obj\Debug\net8.0\12-Funzioni.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\obj\Debug\net8.0\refint\12-Funzioni.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\obj\Debug\net8.0\12-Funzioni.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\obj\Debug\net8.0\12-Funzioni.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\12-Funzioni\obj\Debug\net8.0\ref\12-Funzioni.dll

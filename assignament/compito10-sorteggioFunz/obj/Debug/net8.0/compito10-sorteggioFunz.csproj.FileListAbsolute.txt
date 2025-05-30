@@ -1,0 +1,5 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito10-sorteggioFunz\obj\Debug\net8.0\compito10-sorteggioFunz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito10-sorteggioFunz\obj\Debug\net8.0\compito10-sorteggioFunz.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito10-sorteggioFunz\obj\Debug\net8.0\compito10-sorteggioFunz.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito10-sorteggioFunz\obj\Debug\net8.0\compito10-sorteggioFunz.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito10-sorteggioFunz\obj\Debug\net8.0\compito10-sorteggioFunz.sourcelink.json

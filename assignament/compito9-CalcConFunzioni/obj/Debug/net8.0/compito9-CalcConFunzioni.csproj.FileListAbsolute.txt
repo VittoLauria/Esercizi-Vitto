@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\obj\Debug\net8.0\compito9-CalcConFunzioni.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\obj\Debug\net8.0\compito9-CalcConFunzioni.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\obj\Debug\net8.0\compito9-CalcConFunzioni.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\obj\Debug\net8.0\compito9-CalcConFunzioni.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\obj\Debug\net8.0\compito9-CalcConFunzioni.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\bin\Debug\net8.0\compito9-CalcConFunzioni.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\bin\Debug\net8.0\compito9-CalcConFunzioni.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\bin\Debug\net8.0\compito9-CalcConFunzioni.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\bin\Debug\net8.0\compito9-CalcConFunzioni.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\bin\Debug\net8.0\compito9-CalcConFunzioni.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\obj\Debug\net8.0\compito9-CalcConFunzioni.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\obj\Debug\net8.0\refint\compito9-CalcConFunzioni.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\obj\Debug\net8.0\compito9-CalcConFunzioni.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\obj\Debug\net8.0\compito9-CalcConFunzioni.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito9-CalcConFunzioni\obj\Debug\net8.0\ref\compito9-CalcConFunzioni.dll

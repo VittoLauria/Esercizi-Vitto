@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("compito7-sorteggioPartecipanti")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("compito10-sorteggioFunz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9407465c8958bd0e56837e2fd8d13eed088834e4")]
-[assembly: System.Reflection.AssemblyProductAttribute("compito7-sorteggioPartecipanti")]
-[assembly: System.Reflection.AssemblyTitleAttribute("compito7-sorteggioPartecipanti")]
+[assembly: System.Reflection.AssemblyProductAttribute("compito10-sorteggioFunz")]
+[assembly: System.Reflection.AssemblyTitleAttribute("compito10-sorteggioFunz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.

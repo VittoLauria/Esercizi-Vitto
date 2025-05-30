@@ -1,0 +1,2 @@
+# Sorteggio part con funzioni
+
