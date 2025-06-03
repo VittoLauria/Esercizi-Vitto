@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\bin\Debug\net8.0\13-Metodi-File.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\bin\Debug\net8.0\13-Metodi-File.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\bin\Debug\net8.0\13-Metodi-File.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\bin\Debug\net8.0\13-Metodi-File.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\bin\Debug\net8.0\13-Metodi-File.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\obj\Debug\net8.0\13-Metodi-File.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\obj\Debug\net8.0\13-Metodi-File.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\obj\Debug\net8.0\13-Metodi-File.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\obj\Debug\net8.0\13-Metodi-File.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\obj\Debug\net8.0\13-Metodi-File.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\obj\Debug\net8.0\13-Metodi-File.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\obj\Debug\net8.0\refint\13-Metodi-File.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\obj\Debug\net8.0\13-Metodi-File.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\obj\Debug\net8.0\13-Metodi-File.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\13-Metodi-File\obj\Debug\net8.0\ref\13-Metodi-File.dll

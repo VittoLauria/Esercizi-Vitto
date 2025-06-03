@@ -12,7 +12,7 @@ Dictionary<string, DateTime> RaccogliPartecipanti()
     while (true)
     {
         //gestione del nome
-        Console.WriteLine( "Nome o 'fine' per uscire: );
+        Console.WriteLine("Nome o 'fine' per uscire: );
         string nome = Console.ReadLine();
         // gestione data di nascita
         if (nome.ToLower() == fine)
