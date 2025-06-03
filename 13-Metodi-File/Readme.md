@@ -8,7 +8,7 @@ string path = @"test.txt";
 
 File.Create(path).Close(); // chiudere il file dopo la creazione permettere di poterlo modificare
 
-// crerare un film con il timestamp come nome
+// crerare un file con il timestamp come nome
 
 string timeStamp = DateTime.Now.ToString("yyyyMMdd");
 string path = $"test_{timeStamp}.txt";
@@ -125,3 +125,7 @@ DirectoryInfo dirInfo = new DirectoryInfo(dir);
 Console.Writeline(dirInfo.CreationTime);
 Console.Writeline(dirInfo.LastWriteTime);
 Console.Writeline(dirInfo.Name);
+
+// elencare i file in una directory
+
+string[] files = 

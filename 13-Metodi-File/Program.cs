@@ -2,7 +2,7 @@
 
 File.Create(pathTest).Close(); // chiudere il file dopo la creazione permettere di poterlo modificare
 
-// crerare un film con il timestamp come nome
+// crerare un file con il timestamp come nome
 
 string timeStamp = DateTime.Now.ToString("yyyyMMdd");
 string path = $"test_{timeStamp}.txt";

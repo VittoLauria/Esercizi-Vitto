@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\obj\Debug\net8.0\compito11-filesBackUp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\obj\Debug\net8.0\compito11-filesBackUp.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\obj\Debug\net8.0\compito11-filesBackUp.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\obj\Debug\net8.0\compito11-filesBackUp.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\obj\Debug\net8.0\compito11-filesBackUp.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\bin\Debug\net8.0\compito11-filesBackUp.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\bin\Debug\net8.0\compito11-filesBackUp.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\bin\Debug\net8.0\compito11-filesBackUp.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\bin\Debug\net8.0\compito11-filesBackUp.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\bin\Debug\net8.0\compito11-filesBackUp.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\obj\Debug\net8.0\compito11-filesBackUp.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\obj\Debug\net8.0\refint\compito11-filesBackUp.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\obj\Debug\net8.0\compito11-filesBackUp.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\obj\Debug\net8.0\compito11-filesBackUp.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito11-filesBackUp\obj\Debug\net8.0\ref\compito11-filesBackUp.dll
