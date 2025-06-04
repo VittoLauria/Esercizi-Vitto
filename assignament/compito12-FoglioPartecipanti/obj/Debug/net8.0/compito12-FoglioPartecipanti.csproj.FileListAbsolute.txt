@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\obj\Debug\net8.0\compito12-FoglioPartecipanti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\obj\Debug\net8.0\compito12-FoglioPartecipanti.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\obj\Debug\net8.0\compito12-FoglioPartecipanti.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\obj\Debug\net8.0\compito12-FoglioPartecipanti.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\obj\Debug\net8.0\compito12-FoglioPartecipanti.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\bin\Debug\net8.0\compito12-FoglioPartecipanti.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\bin\Debug\net8.0\compito12-FoglioPartecipanti.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\bin\Debug\net8.0\compito12-FoglioPartecipanti.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\bin\Debug\net8.0\compito12-FoglioPartecipanti.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\bin\Debug\net8.0\compito12-FoglioPartecipanti.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\obj\Debug\net8.0\compito12-FoglioPartecipanti.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\obj\Debug\net8.0\refint\compito12-FoglioPartecipanti.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\obj\Debug\net8.0\compito12-FoglioPartecipanti.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\obj\Debug\net8.0\compito12-FoglioPartecipanti.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito12-FoglioPartecipanti\obj\Debug\net8.0\ref\compito12-FoglioPartecipanti.dll
