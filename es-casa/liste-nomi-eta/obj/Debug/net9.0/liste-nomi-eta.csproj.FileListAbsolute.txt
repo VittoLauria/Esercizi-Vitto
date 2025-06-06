@@ -1,0 +1,15 @@
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/bin/Debug/net9.0/liste-nomi-eta
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/bin/Debug/net9.0/liste-nomi-eta.deps.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/bin/Debug/net9.0/liste-nomi-eta.runtimeconfig.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/bin/Debug/net9.0/liste-nomi-eta.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/bin/Debug/net9.0/liste-nomi-eta.pdb
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/Debug/net9.0/liste-nomi-eta.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/Debug/net9.0/liste-nomi-eta.AssemblyInfoInputs.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/Debug/net9.0/liste-nomi-eta.AssemblyInfo.cs
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/Debug/net9.0/liste-nomi-eta.csproj.CoreCompileInputs.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/Debug/net9.0/liste-nomi-eta.sourcelink.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/Debug/net9.0/liste-nomi-eta.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/Debug/net9.0/refint/liste-nomi-eta.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/Debug/net9.0/liste-nomi-eta.pdb
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/Debug/net9.0/liste-nomi-eta.genruntimeconfig.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/Debug/net9.0/ref/liste-nomi-eta.dll

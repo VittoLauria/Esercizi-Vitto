@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("06-Cicli")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5995b3a428790fc388c7c4e6d6f01fa509e4058b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d5c73e6ee67c75bec6c6aa247b75ce4492e3d11")]
 [assembly: System.Reflection.AssemblyProductAttribute("06-Cicli")]
 [assembly: System.Reflection.AssemblyTitleAttribute("06-Cicli")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

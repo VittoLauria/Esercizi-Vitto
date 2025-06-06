@@ -3,7 +3,7 @@ Dictionary<string, DateTime> partecipanti = RaccogliPartecipanti();
 // Lista globale per i partecipanti idonei
 List<string> idonei = FiltraIdonei(partecipanti);
 // chiamata alla funzione che sorteggia un parteciapnte idoneo
-SorteggiaPartecipanti(idonei);
+SorteggioPartecipanti(idonei);
 
 // funzione che raccoglie i partecipanti senza nessun parametro
 Dictionary<string, DateTime> RaccogliPartecipanti()
@@ -12,10 +12,14 @@ Dictionary<string, DateTime> RaccogliPartecipanti()
     while (true)
     {
         //gestione del nome
+<<<<<<< HEAD
         Console.WriteLine("Nome o 'fine' per uscire: );
+=======
+        Console.WriteLine("Nome o 'fine' per uscire");
+>>>>>>> a915d30317feb1ac2bb4ee66dbca582011d3632f
         string nome = Console.ReadLine();
         // gestione data di nascita
-        if (nome.ToLower() == fine)
+        if (nome.ToLower() == "fine")
         {
             break;
         }
@@ -23,8 +27,8 @@ Dictionary<string, DateTime> RaccogliPartecipanti()
         Console.WriteLine("Data di nascita (es. 01/01/2000): ");
         string inputData = Console.ReadLine();
         // parse della data per convertire da string a DataTime
-        DataTime data;
-        if (!DataTime.TryParse(inputData, out data))
+        DateTime data;
+        if (!DateTime.TryParse(inputData, out data))
         {
             Console.WriteLine("Data non valida");
             continue;
