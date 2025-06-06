@@ -1,0 +1,15 @@
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/bin/Debug/net9.0/esDiscord
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/bin/Debug/net9.0/esDiscord.deps.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/bin/Debug/net9.0/esDiscord.runtimeconfig.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/bin/Debug/net9.0/esDiscord.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/bin/Debug/net9.0/esDiscord.pdb
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/obj/Debug/net9.0/esDiscord.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/obj/Debug/net9.0/esDiscord.AssemblyInfoInputs.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/obj/Debug/net9.0/esDiscord.AssemblyInfo.cs
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/obj/Debug/net9.0/esDiscord.csproj.CoreCompileInputs.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/obj/Debug/net9.0/esDiscord.sourcelink.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/obj/Debug/net9.0/esDiscord.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/obj/Debug/net9.0/refint/esDiscord.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/obj/Debug/net9.0/esDiscord.pdb
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/obj/Debug/net9.0/esDiscord.genruntimeconfig.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/esDiscord/obj/Debug/net9.0/ref/esDiscord.dll
