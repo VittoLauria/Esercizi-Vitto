@@ -1,0 +1,70 @@
+/* Impostazioni base */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    /* il margine è lo spazio esterno */
+    padding: 0;
+    /* il padding e lo spazio interno */
+    line-height: 1.5;
+    /* Altezza della linea */
+    background-color: #ffffff;
+    color: #000000
+}
+
+/* NAVBAR */
+nav {
+    padding: 10px;
+    background-color: #1c811c;
+    text-align: center; /* altri valori: left, right, justify */    
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px 25px;
+    font-weight: bold;
+    color: #ff0000;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+color: #000000
+}
+
+/* SEZIONI */
+section {
+padding: 40px 20px;
+background-color: #52c979;
+border: 3px solid #090a09; /* altri valori: dotted, dashed, double, inset, outset*/
+}
+
+section:nth-child(even) {
+    background-color: #1c811c; /* nth-child seleziona gli elementiin base alla loro posizione */
+}
+
+/* TITOLI */
+h1,h2,h3,h4 {
+    margin-top: 0;
+    color: #ff1100;
+}
+
+/* PARAGRAFI */
+p {
+    margin: 1em 0; /* em e l'unita di misura relativa alla dimensione del font */
+}
+
+/* LISTE */
+ul, ol {
+    margin-left: 1em;
+}
+
+/* LINK */
+a {
+    color: #354bac;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.5s;
+}
