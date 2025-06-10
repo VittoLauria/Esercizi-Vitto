@@ -1,66 +1,97 @@
-2/* Impostazioni base */
+/* Impostazioni base */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Savate', sans-serif;
     margin: 20px;
     /* il margine è lo spazio esterno */
     padding: 0;
     /* il padding e lo spazio interno */
     line-height: 1.5;
     /* Altezza della linea */
-    background-color: #ffffff;
+    background-color: #62abff;
     color: #000000
 }
 
 /* NAVBAR */
 nav {
-    padding: 10px;
+    padding: 2.5vw;
     background-color: #1c811c;
-    text-align: center; /* altri valori: left, right, justify */    
+    text-align: center;
+    /* altri valori: left, right, justify */
 }
 
 nav a {
     text-decoration: none;
-    margin: 0 15px 25px;
+    margin: 0 1.5vw 2.5vw;
     font-weight: bold;
-    color: #ff0000;
+    font-size: 2.5vw;
+    color: #c72020;
     transition: color 0.5s;
 }
 
 nav a:hover {
-color: #000000
+    color: #000000;
 }
 
 /* SEZIONI */
 section {
-padding: 40px 20px;
-background-color: #52c979;
-border: 3px solid #090a09; /* altri valori: dotted, dashed, double, inset, outset*/
+    padding: 4.5vw 2.5vw;
+    background-color: #52c979;
+    border: 3px solid #090a09;
+    /* altri valori: dotted, dashed, double, inset, outset*/
 }
 
 section:nth-child(even) {
-    background-color: #1c811c; /* nth-child seleziona gli elementiin base alla loro posizione */
+    background-color: #1c811c;
+    /* nth-child seleziona gli elementiin base alla loro posizione */
 }
 
 /* TITOLI */
-h1,h2,h3,h4 {
+h1 {
     margin-top: 0;
-    color: #ff1100;
+    color: #c72020;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 6vw;
+}
+
+h2 {
+    margin-top: 0;
+    color: #c72020;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5vw;
+}
+
+h3 {
+    margin-top: 0;
+    color: #c72020;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4vw;
+}
+
+h4 {
+    margin-top: 0;
+    color: #c72020;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3vw;
 }
 
 /* PARAGRAFI */
 p {
-    margin: 1em 0; /* em e l'unita di misura relativa alla dimensione del font */
+    margin: 1em 0;
+    /* em e l'unita di misura relativa alla dimensione del font */
+    font-size: 2.5vw;
 }
 
 /* LISTE */
-ul, ol {
+ul,
+ol {
     margin-left: 1em;
 }
 
 /* LINK */
 a {
-    color: #354bac;
+    color: #c72020;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 a:hover {
@@ -68,3 +99,123 @@ a:hover {
     color: #000000;
     transition: color 0.5s;
 }
+
+/* HEADER */
+header {
+    position: sticky;
+    /* permette di mantenere l'header visibile durante lo scroll */
+    top: 0;
+    /* indica la distanza dal bordo superiore della pagina */
+    z-index: 100;
+    /* specifica l'ordine di sovrapposizione degli elementi */
+    background-color: #f80707;
+    border: 2px solid #f80707;
+    /* gli attribui rappresentano spessore tipo e colore */
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: auto;
+    /* centra l'elemento verticalmente e orrizontalmente */
+    padding: 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5vw;
+}
+img {
+    width: 100%;
+    height: auto;
+   
+}
+
+/* stili tabella */
+table {
+    width: 100%;
+    border-collapse: collapse; /* rimuove gli spazi tra le celle */
+    margin: 20px 0;
+    background-color: #2ee33a;
+    border: #000000 1px solid;
+}
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+/*stili div */
+div {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #000000;
+}
+
+/* Stile personalizzato, richiamo lo stile con il . perche nel HTML ho usato 'class =' es box1 per modificare il box1 */
+/* uso lo stile con il # perche nel HTML ho usato 'id =' */
+.box1 {
+    background-color: aliceblue;
+}
+.box3 {
+    background-color: #fa9d9d;
+}
+
+#box4 {
+    background-color: #cef86a;
+}
+
+
+/* media query(SEMPRE ALLA FINE) */
+/* tablet grande */
+@media (max-width: 1200px) {
+    body {
+        background-color: #F4E7E1;
+        }
+        nav {
+        background-color: #000000;
+    }
+      
+}
+
+/* Tablet piccolo */
+@media (max-width: 992px) {
+    body {
+        background-color: #FF9B45;
+    }
+    nav {
+        background-color: #ffffff;
+    }
+}
+
+/* Telefono grande */
+@media (max-width: 768px) {
+    body {
+        background-color: #D5451B;
+
+    }
+    nav {
+        background-color: #b19f50;
+    }
+}
+
+/* Telefono piccolo */
+@media (max-width: 576px) {
+    body {
+        background-color: #521C0D;
+
+    }
+    nav {
+        background-color: #ae23ca;
+    }
+}
+
+
+
+#F4E7E1
+
+
