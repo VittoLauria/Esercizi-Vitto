@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito12.2\\compito12.2.csproj": {}
+    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12.2/compito12.2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito12.2\\compito12.2.csproj": {
+    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12.2/compito12.2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito12.2\\compito12.2.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12.2/compito12.2.csproj",
         "projectName": "compito12.2",
-        "projectPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito12.2\\compito12.2.csproj",
-        "packagesPath": "C:\\Users\\devops3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito12.2\\obj\\",
+        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12.2/compito12.2.csproj",
+        "packagesPath": "/Users/vittolauri19/.nuget/packages/",
+        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12.2/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\devops3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -40,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -56,12 +54,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

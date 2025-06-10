@@ -114,7 +114,7 @@ void ScriviProdotti(string file, List<string[]> prodotti)
     // ciclo i prodotti  li aggiungo
     foreach (var prodotto in prodotti)
     {
-        //creo la riga del prodotto il metodo Join per uniri i campi con la virgolo
+        //creo la riga del prodotto il metodo Join per uniri i campi con la virgola
         string riga = string.Join(",", prodotto);
         //aggiungo la riga 
         righe.Add(riga);

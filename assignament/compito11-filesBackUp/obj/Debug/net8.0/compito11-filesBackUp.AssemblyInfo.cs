@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("compito11-filesBackUp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec97ac92ad31943472f7a3cfe9d2ec588b662936")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5920912434b2783b0158e3a79fd6fbe2f19326c")]
 [assembly: System.Reflection.AssemblyProductAttribute("compito11-filesBackUp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("compito11-filesBackUp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "099oNLtLzDg=",
+  "dgSpecHash": "q+qJUzvfOMY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito12-FoglioPartecipanti\\compito12-FoglioPartecipanti.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12-FoglioPartecipanti/compito12-FoglioPartecipanti.csproj",
+  "expectedPackageFiles": [
+    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/vittolauri19/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.16/microsoft.netcore.app.host.osx-arm64.8.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
