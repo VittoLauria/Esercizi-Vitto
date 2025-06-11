@@ -4,11 +4,11 @@
 
 <head>
     <!--l'head e la parte della pagina che contiene le info-->
-     <!--set di caratteri-->
-     <meta charset="UTF-8">
+    <!--set di caratteri-->
+    <meta charset="UTF-8">
 
-     <!--Responsive su mobile-->
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Responsive su mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Descrizione della pagina-->
     <title>Pagina di esempio</title>
@@ -19,110 +19,160 @@
     <meta name="author" content="Il tuo Nome">
 
     <!-- Foglio di stile CSS personalizzato-->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css2?family=Savate&display=swap" rel="stylesheet">
-
+    <!-- CDN BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- BOOTSRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+        <!--Bottstrap icon-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <img src="https://www.globalinformatica.biz/media/immagini/articoli/27/global_informatica_ecommerce.jpg" alt="Immagine placeholder" />
-    <h1>PROVE PER IMPARARE</h1>
-    <!-- body è la pare della pagina che contiene il contenuto-->
-     <div id="top"></div>
-    <header>
-        <!-- contiene gli strumenti di navigazione es (menu,login)-->
-        <nav>
-            <!-- nav contiene i link di navigazione-->
-            <a href="#home">Home</a>
-            <a href="#chisiamo">Chi siamo</a>
-            <a href="#servizi">Servizi</a>
-            <a href="#contatti">Contatti</a>
-            <a href="#privacy">Privacy</a>
-        </nav>
-        <hr>
-    </header>
-    <main>
-        <!--contiene il contenuto principale della pagina-->
-        <h1>Benvenuto nella pagina di esempio(main)</h1>
-        <h2>questo e un esempio di pagina HTML</h2>
-        <h3>Struttura della pagina</h3>
-        <h4>Selezioni pagine</h4>
-        <p>questa pagina è un esempio:<br>Come strutturare un documento HTML</p>
-        <h1>Lista di Esempio: (ul)</h1>
-        <ul>
-            <li><i>Questo è un elemento di lista in corsivo</i></li>
-            <li>Questo e un altro elemento di lista</li>
-            <li>questo è un terzo elemento della lista</li>
-        </ul>
-        <h1>Lista ordinata di esempio: (ol)</h1>
-        <ol>
-            <li>Primo elemento della lista ordinata</li>
-            <li>Secondo elemento della lista ordinata</li>
-            <li>Terzo elemento della lista ordinata</li>
-        </ol>
-        <!-- Esempio di Link(collegamento)-->
-        <h1>Link</h1>
-        <p>
-            <b>Questo è un link a <a href="#">Collegamento</a>.</b>
-        </p>
-        <!-- Esempio di sezione-->
-        <section id="chisiamo">
-            <h1>Sezione chi Siamo</h1>
-            <p>questa e la sezione chi Siamo</p>
+    
+    <div class="container">
+        <img src="https://www.globalinformatica.biz/media/immagini/articoli/27/global_informatica_ecommerce.jpg"
+            alt="Immagine placeholder" />
+        <h1>PROVE PER IMPARARE</h1>
+        <!-- body è la pare della pagina che contiene il contenuto-->
+        <div id="top"></div>
+        <header>
+            <!-- contiene gli strumenti di navigazione es (menu,login)-->
+            <nav>
+                <!-- nav contiene i link di navigazione-->
+                <a href="#home">Home</a>
+                <a href="#chisiamo">Chi siamo</a>
+                <a href="#servizi">Servizi</a>
+                <a href="#contatti">Contatti</a>
+                <a href="#privacy">Privacy</a>
+            </nav>
+            <!-- Nav di Bootstrap -->
+            
+            <hr>
+        </header>
+        <main>
+            <!--contiene il contenuto principale della pagina-->
+            <h1>Benvenuto nella pagina di esempio(main)</h1>
+            <h2>questo e un esempio di pagina HTML</h2>
+            <h3>Struttura della pagina</h3>
+            <h4>Selezioni pagine</h4>
+            <p>questa pagina è un esempio:<br>Come strutturare un documento HTML</p>
+            <h1>Lista di Esempio: (ul)</h1>
+            <ul>
+                <li><i>Questo è un elemento di lista in corsivo</i></li>
+                <li>Questo e un altro elemento di lista</li>
+                <li>questo è un terzo elemento della lista</li>
+            </ul>
+            <h1>Lista ordinata di esempio: (ol)</h1>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-secondary">Danger</button>
+            <button class="btn btn-custom">Custom</button>
+            <ol>
+                <li>Primo elemento della lista ordinata</li>
+                <li>Secondo elemento della lista ordinata</li>
+                <li>Terzo elemento della lista ordinata</li>
+            </ol>
+            <!-- esempio di componente -->
+            <div class="alert alert-danger" role="alert">
+                A simple primary alert-check it out!
+            </div>
+            <!-- Esempio di Link(collegamento)-->
+            <h1>Link</h1>
             <p>
-                <a href="#top">Torna all'inizio</a>
+                <b>Questo è un link a <a href="#">Collegamento</a>.</b>
             </p>
-        </section>
-        <section id="servizi">
-            <h1>Sezione Servizi</h1>
-            <p>I nostri servizi offrono la migliore esperienza nel mondo</p>
-             <p>
-                <a href="#top">Torna all'inizio</a>
-            </p>
-        </section>
-        <section id="contatti">
-            <h1>Sezioni Contatti</h1>
-            <p>Contattaci al 123456789 o su i nostri social (instagram,facebook)</p>
-             <p>
-                <a href="#top">Torna all'inizio</a>
-            </p>
-        </section>
-        <section id="privacy">
-            <h1>Sezione privacy</h1>
-            <p>Qui e tutto al sicuro!BeSafe</p>
-             <p>
-                <a href="#top">Torna all'inizio</a>
-            </p>
-        </section>
-        <hr>
-        <h1>Tabella</h1>
-        <!-- th = table header -->
-         <!--td = table data -->
-        <table>
-            <tr>
-                <th>Intestazione 1</th>
-                <th>Intestazione 2</th>
-            </tr>
-            <tr>
-                <td>Cella 1</td>
-                <td>Cella 2</td>
-            </tr>
-        </table>
-        <!-- utilizzo di div invece di tabelle-->
-         <h1>Div</h1>
-         <div>
-            <div class="box1">Box 1</div>
-            <div>Box 2</div>
-            <div class="box3">Box 3</div>
-            <div id="box4">Box 4</div>
-         </div>
-    </main>
-    <footer>
-        <!-- contiene le informazione di chiusura della pagine(contatti,indirizzo partita iva,copiright ecc)-->
-        <p>Questo è il footer</p>
-    </footer>
+            <!-- Esempio di sezione-->
+            
+            <section id="chisiamo">
+                <h1><i class="bi bi-airplane-engines-fill"></i>Sezione chi Siamo</h1>
+                <p>questa e la sezione chi Siamo</p>
+                <p>
+                    <a href="#top">Torna all'inizio</a>
+                </p>
+            </section>
+            </div>
+            <section id="servizi">
+                <h1>Sezione Servizi</h1>
+                <p>I nostri servizi offrono la migliore esperienza nel mondo</p>
+                <p>
+                    <a href="#top">Torna all'inizio</a>
+                </p>
+            </section>
+            <section id="contatti">
+                <h1>Sezioni Contatti</h1>
+                <p>Contattaci al 123456789 o su i nostri social (instagram,facebook)</p>
+                <p>
+                    <a href="#top">Torna all'inizio</a>
+                </p>
+            </section>
+            <section id="privacy">
+                <h1><i class="bi bi-emoji-angry"></i>Sezione privacy</h1>
+                <p>Qui e tutto al sicuro!BeSafe</p>
+                <p>
+                    <a href="#top">Torna all'inizio</a>
+                </p>
+            </section>
+            
+            <hr>
+            <h1>Tabella</h1>
+            <!-- th = table header -->
+            <!--td = table data -->
+            <table>
+                <tr>
+                    <th>Intestazione 1</th>
+                    <th>Intestazione 2</th>
+                </tr>
+                <tr>
+                    <td>Cella 1</td>
+                    <td>Cella 2</td>
+                </tr>
+            </table>
+            <!-- utilizzo di div invece di tabelle-->
+            <h1>Div</h1>
+            <div>
+                <div class="box1">Box 1</div>
+                <div>Box 2</div>
+                <div class="box3">Box 3</div>
+                <div id="box4">Box 4</div>
+            </div>
+            <!-- Uso di Grid-->
+             <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        contenuto
+                    </div>
+                     <div class="col-6">
+                        contenuto
+                    </div>
+                </div>
+             </div>
+        </main>
+        <footer>
+             <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                    <i class="bi bi-playstation fs-1"></i> 
+                    </div>
+                    <div class="col-4">
+                    <i class="bi bi-spotify fs-1"></i>
+                    </div>
+                    <div class="col-4">
+                    <i class="bi bi-xbox fs-1"></i>
+                    </div>
+                </div>
+             </div>
+            <!-- contiene le informazione di chiusura della pagine(contatti,indirizzo partita iva,copiright ecc)-->
+             
+            <p>Questo è il footer</p>
+        </footer>
+    </div>
+
 </body>
 
 </html>

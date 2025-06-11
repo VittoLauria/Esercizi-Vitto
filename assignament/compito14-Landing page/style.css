@@ -1,0 +1,92 @@
+body {
+    font-family: 'Savate', sans-serif;
+    margin: 20px;
+    padding: 10px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #000000
+}
+
+nav {
+    padding: 10px;
+    background-color: #000000;
+    text-align: center;
+}
+header {
+    padding: 10px;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    body {
+        background-color: #ffffff;
+        }
+          
+}
+
+/* Tablet piccolo */
+@media (max-width: 992px) {
+    body {
+        background-color: #ffffff;
+    }
+    
+}
+
+/* Telefono grande */
+@media (max-width: 768px) {
+    body {
+        background-color: #ffffff;
+    }
+    
+}
+
+/* Telefono piccolo */
+@media (max-width: 576px) {
+    body {
+        background-color: #ffffff;
+    }
+}

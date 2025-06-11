@@ -151,8 +151,7 @@ td, th {
 
 /*stili div */
 div {
-    padding: 20px;
-    margin: 20px;
+    
     border: 1px solid #000000;
 }
 
@@ -168,6 +167,16 @@ div {
 #box4 {
     background-color: #cef86a;
 }
+.btn-primary {
+    background-color: #521C0D !important;
+} 
+.btn-secondary {
+    background-color: #b19f50 !important;
+}
+.btn-custom {
+    background-color: #cef86a !important;
+}
+
 
 
 /* media query(SEMPRE ALLA FINE) */
@@ -216,6 +225,5 @@ div {
 
 
 
-#F4E7E1
 
 
