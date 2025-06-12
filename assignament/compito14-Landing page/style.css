@@ -6,85 +6,72 @@ body {
     background-color: #ffffff;
     color: #000000
 }
-
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 5px;
+}
 nav {
-    padding: 10px;
-    background-color: #000000;
+    padding: 2.5vw;
     text-align: center;
 }
-header {
-    padding: 10px;
+nav a {
+    text-decoration: none;
+    margin: 0 1.5vw 2.5vw;
+    font-weight: bold;
+    font-size: 2.5vw;
 }
+
 section {
     padding: 20px;
     margin: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#competenze {
+    margin: auto;
+    max-width: 100%;
+}
+#progress{
+    padding: 20px;
+    margin: 10px;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+div {
+    border: 2px;   
+}
+img {
+    width: 100%;
+    height: auto;
+}
+main {
+    margin: auto;
+    }
+.btn-danger {
+    margin: 15vw;
+    padding: 30vw;
+    width: 50%;
+    text-align: center;
+}
 @media (max-width: 1200px) {
     body {
         background-color: #ffffff;
         }
           
 }
-
-/* Tablet piccolo */
 @media (max-width: 992px) {
     body {
         background-color: #ffffff;
     }
     
 }
-
-/* Telefono grande */
 @media (max-width: 768px) {
     body {
         background-color: #ffffff;
     }
     
 }
-
-/* Telefono piccolo */
 @media (max-width: 576px) {
     body {
         background-color: #ffffff;

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Landing Page</title>
-
+    <h1></h1>
 
     <meta name="description" content="Primo esercizio html">
     <meta name="keywords" content="html, landing page, esempio">
@@ -23,26 +23,28 @@
     <!--Bottstrap icon-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
+<div class="container">
 
-<body>
-    <div id="top"></div>
-    <div class="container">
-        <img src="https://th.bing.com/th/id/OIP.xQRwIuPDMOUcLNxRMEtJXgHaHa?rs=1&pid=ImgDetMain" alt="Immagine benvenuto" />
+    <body>
+        <div id="top"></div>
+
+        <img src="https://th.bing.com/th/id/OIP.xQRwIuPDMOUcLNxRMEtJXgHaHa?rs=1&pid=ImgDetMain"
+            alt="Immagine benvenuto"/>
+
         <h1>Landing Page di Vittorio Lauria</h1>
-
+        <h2>Prima pagina creata</h2>
         <header>
-            <div class="container">
-                <nav class="navbar bg-white border-bottom " data-bs-theme="white">
-
-                    <a href="#chisono">Chi sono</a>
-                    <a href="#competenze">Competenze</a>
-                    <a href="#esperienzelavorative">Esperienze Lavorative</a>
-                    <a href="#contatti">Contatti</a>
-
-                </nav>
-            </div>
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#chisono">Chi Sono</a>
+                <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page"
+                    href="#competenze">Competenze</a>
+                <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page"
+                    href="#esperienzelavorative">Esperienze Lavoartive</a>
+                <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#contatti">Contatti</a>
+            </nav>
 
         </header>
+
         <main>
             <section id="chisono">
                 <h1> <i class="bi bi-person-bounding-box"></i> Chi Sono:</h1>
@@ -63,55 +65,57 @@
                     basate sul rispetto e contribuire a un ambiente di lavoro sereno e produttivo.
                 </p>
             </section>
-            <section id="competenze">
 
+            <section id="competenze">
+                <div class="container">
                 <h1><i class="bi bi-hammer"></i>Competenze:</h1>
                 <p>Le mie competenze</p>
-                <div class="card border-success mb-3" style="max-width: 22rem;">
+                <div class="card border-primary mb-3">
                     <div class="card-header">Problem Solving</div>
-                    <div class="card-body text-success">
+                    <div class="card-body text-primary">
                         <p class="card-text">Affronto le sfide analizzando con logica le situazioni e valutando
                             soluzioni pratiche e innovative. Mi piace cercare alternative, valutare i pro e contro, e
                             agire in modo efficace anche sotto pressione o con risorse limitate.</p>
                     </div>
                 </div>
-                <div class="card border-success mb-3" style="max-width: 22rem;">
+                <div class="card border-primary mb-3">
                     <div class="card-header">Lavoro in Team:</div>
-                    <div class="card-body text-success">
+                    <div class="card-body text-primary">
                         <p class="card-text">Mi trovo bene a collaborare con persone diverse, valorizzando le opinioni
                             altrui e contribuendo in modo costruttivo. Sono disponibile all’ascolto, al confronto e a
                             supportare il gruppo per raggiungere obiettivi comuni.
                         </p>
                     </div>
                 </div>
-                <div class="card border-success mb-3" style="max-width: 22rem;">
+                <div class="card border-primary mb-3">
                     <div class="card-header">Comunicazione:</div>
-                    <div class="card-body text-success">
+                    <div class="card-body text-primary">
                         <p class="card-text">Sono molto abile nel trasmettere concetti in modo chiaro, efficace e adatto
                             al pubblico di riferimento. So adattare il tono e lo stile a seconda del contesto
                             (professionale, informale, tecnico, promozionale) e mi assicuro sempre che il messaggio sia
                             comprensibile e coinvolgente.</p>
-
+                    </div>
+                </div>
+            </div>
             </section>
+            <div class="container">
             <p>Problem Solving</p>
             <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
                 aria-valuemax="100">
                 <div class="progress-bar" style="width: 75%"></div>
             </div>
             <p>Lavoro in Team</p>
-            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0"
                 aria-valuemax="100">
-                <div class="progress-bar" style="width: 50%"></div>
+                <div class="progress-bar" style="width: 80%"></div>
             </div>
             <p>comunicazione</p>
             <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0"
                 aria-valuemax="100">
                 <div class="progress-bar" style="width: 65%"></div>
-
             </div>
-
             <section id="esperienzelavorative">
-
+                </div>
                 <h1><i class="bi bi-graph-up"></i>Esperienze Lavorative:</h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
@@ -129,6 +133,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col">
                         <div class="card h-100">
                             <img src="https://blogstudio.s3.theshoppad.net/coffeeheroau/d4459a5d44905ff2cf3c245e7a931675.jpg"
@@ -145,6 +150,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col">
                         <div class="card h-100">
                             <img src="https://assets.aboutamazon.com/dims4/default/2853ef6/2147483647/strip/true/crop/1999x1125+1+0/resize/2640x1486!/quality/90/?url=https:%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F9c%2F7b%2F5e02715f4a97b4c27100614cafc2%2Fhero3.jpg"
@@ -179,11 +185,30 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
+            
+            <div class="row">
+                <div class="col-6">
+                    <i class="bi bi-instagram fs-1"></i>
+                </div>
+                <div class="col-5">
+                    <i class="bi bi-facebook fs-1"></i>
+                </div>
+                <div class="col-1">
+                    <i class="bi bi-whatsapp fs-1"></i>
+                </div>
+            </div>
+            <div class="container">
+           <button type="button" class="btn btn-danger btn-lg">Contattami per piu informazioni</button>
+            </div>
         </footer>
+        <hr>
         <p>
+            <div class="position-absolute start-50 translate-middle">
             <a href="#top">Torna all'inizio</a>
+            </div>
         </p>
-    </div>
-</body>
+
+    </body>
+</div>
 
 </html>
