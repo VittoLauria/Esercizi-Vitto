@@ -1,25 +1,23 @@
-body {
-     font-family: 'Savate', sans-serif;
-background-color: #ffffff;
-margin: 20px;
-padding: 0px;
-line-height: 1.5;
+.navbar {
+    background-color: #a01f1f;
 }
-header {
-    top: 0;
-    background-color: #9e0d0d;
-    color: #ffffff;
+.footer-links h6 {
+font-weight: bold;
+margin-bottom: 10px;
 }
-nav {
-    color: #ffffff;
+.footer-links ul {
+list-style: none;
+padding-left: 0;
 }
-div {
-    border: 1px solid black;
+.footer-links ul li {
+margin-bottom: 6px;
 }
-.navbar
-{
+.footer-bottom {
+border-top: 1px solid white;
+margin-top: 20px;
+padding-top: 15px;
+}
 
-}
 
 
 
