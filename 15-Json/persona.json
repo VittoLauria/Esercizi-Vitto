@@ -1,0 +1,14 @@
+
+{
+"nome":"Partecipante 1",
+"eta": 30,
+"presente": true,
+"interessi": ["programmazione", "musica", "sport"],
+"indirizzo": {
+    "via": "Via Roma",
+    "citta": "Milano",
+    "cap": "20100"
+ }
+}
+
+
