@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json; // importazione libreria 
+﻿// ESEMPIO DI DESERIALIZZAZIONE (Lettura)
+
+using Newtonsoft.Json; // importazione libreria 
 
 // percorso del file json
 string path = @"persona.json";
@@ -7,7 +9,6 @@ string path = @"persona.json";
 // anche cosi : Partecipante partecipante = JsonConvert.DeserializeObject<Partecipante>(File.ReadAllText(path));
 // deserializzazione tramite newtonsoft.json
 // Partecipante partecipante = JsonSerializer.Deserialize<Partecipante>(json);
-
 
 string json = File.ReadAllText(path); // Leggo il contenuto del file
 // deserializzo il file json in un oggetto
@@ -22,6 +23,7 @@ Console.WriteLine($"Eta: {partecipante.eta}");
 Console.WriteLine($"Presente: {partecipante.presente}");
 // interessi
 Console.WriteLine("interessi:");
+
 foreach (var interesse in partecipante.interessi)
 {
     Console.WriteLine($"{interesse}");
@@ -35,7 +37,55 @@ Console.WriteLine($"Indirizzo: {partecipante.indirizzo.via}, {partecipante.indir
 
 
 
+// ESEMPIO DI SERIALIZZAZIONE (Scrittura)
 
+//creao un nuovo oggetto Partecioane tramite il costruttore new
+Partecipante nuovoPartecipante = new Partecipante
+// lo inizializzo con i valori desiderati
+{
+    nome = "nuovo Partecipante",
+    eta = 25,
+    presente = true,
+    interessi = new List<string> { "arte", "viaggi", "cucina" },
+    indirizzo = new Indirizzo
+    {
+        via = "Via Milano",
+        citta = "Roma",
+        cap = "00100"
+    }
+};
+// serializzo l'oggetto in un file json
+string jsonOutput = JsonConvert.SerializeObject(nuovoPartecipante,  Formatting.Indented);
+// scegliere percorso file json
+string outputPath = @"output.json";
+// scrivo il file json
+File.WriteAllText(outputPath, json);
+// stampare a console il json
+Console.WriteLine($"JSON serielizzato:");
+Console.WriteLine(jsonOutput);
+
+// ESEMPIO MODIFICA del valore di un campo FILE JSON
+// modifica nome del partecipante
+partecipante.nome = "Partecipante modificato";
+//serializzo nuovamenente l'oggetto in un file json
+string jsonModificato = JsonConvert.SerializeObject(partecipante, Formatting.Indented);
+// scrivo il file json
+File.WriteAllText(path, jsonModificato);
+// stampo il file modificato
+Console.WriteLine("JSON MODIFICATO:");
+Console.WriteLine(jsonModificato);
+
+// ESEMPIO DI CANCELLAZIONE DI UN FILE JSON
+//cancello il file json
+if (File.Exists(path))
+{
+    File.Delete(path);
+    Console.WriteLine($"File {path} cancellato.");
+}
+else
+{
+    Console.WriteLine($"Il file {path} non esiste");
+}
 
 
 // creare la classe partecipante
@@ -48,9 +98,10 @@ public class Partecipante
     public Indirizzo indirizzo { get; set; } // campo oggetto di tipo indirizzo
 }
 
- public class Indirizzo
+public class Indirizzo
 {
     public string via { get; set; }
     public string citta { get; set; }
     public string cap { get; set; }
 }
+

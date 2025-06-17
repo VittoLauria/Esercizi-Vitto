@@ -1,0 +1,15 @@
+{
+  "nome": "Partecipante modificato",
+  "eta": 25,
+  "presente": true,
+  "interessi": [
+    "arte",
+    "viaggi",
+    "cucina"
+  ],
+  "indirizzo": {
+    "via": "Via Milano",
+    "citta": "Roma",
+    "cap": "00100"
+  }
+}
