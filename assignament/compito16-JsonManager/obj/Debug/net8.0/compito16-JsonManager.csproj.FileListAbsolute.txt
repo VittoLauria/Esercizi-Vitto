@@ -34,3 +34,12 @@ C:/Users/devops3/Documents/Esercizi-Vitto/assignament/compito16-JsonManager/obj/
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito16-JsonManager/obj/Debug/net8.0/compito16-JsonManager.pdb
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito16-JsonManager/obj/Debug/net8.0/compito16-JsonManager.genruntimeconfig.cache
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito16-JsonManager/obj/Debug/net8.0/ref/compito16-JsonManager.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager\obj\Debug\net8.0\compito16-JsonManager.csproj.AssemblyReference.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager\obj\Debug\net8.0\compito16-JsonManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager\obj\Debug\net8.0\compito16-JsonManager.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager\obj\Debug\net8.0\compito16-JsonManager.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager\obj\Debug\net8.0\compito16-JsonManager.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager\obj\Debug\net8.0\compito16-JsonManager.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager\obj\Debug\net8.0\compito16-JsonManager.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager\obj\Debug\net8.0\refint\compito16-JsonManager.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager\obj\Debug\net8.0\compito16-JsonManager.pdb

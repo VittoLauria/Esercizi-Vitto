@@ -1,37 +1,12 @@
 ﻿using Newtonsoft.Json;
-string prodotti = @"prodotti.Json";
-File.Create(prodotti).Close();
-while (true)
-{
-    Console.WriteLine("dimmi se vuoi: aggiungere, eliminare, modificare o visualizzare un file/esc per uscire");
-
-    string scelta = Console.ReadLine();
-    if (scelta == "esc")
-
-    void AggiungiProdotto(List<string[]> prodotti)
+string dir = @"Libreria";
+string path = "Data";
+void VerificaFolders()
     {
-
-
-        // chiediamo all'utente di inserire il nome del prodotto
-        Console.WriteLine("Inserisci il nome del prodotto: ");
-        //acquisiamo il nome del prodotto
-        string nome = Console.ReadLine();
-        // chiediamo all'utente di indìserire il prezzo del prdotto
-        Console.WriteLine("Inserisci il quantita del prodotto: ");
-        // acquisiamo il prezzo del prodotto
-        string quantita = Console.ReadLine();
-
-
-
-        // calcoliamo il nuovo id per il prodotto
-        int nuovoId = CalcolaNuovoId(prodotti);
-        string[] nuovoProdotto = new string[] { nuovoId.ToString(), nome, quantita.ToString() };
-        nuovoProdotto[2] = nuovoProdotto[2].Replace(",", ".");
-        // Aggiungiamo il nuovo prodotto alla lista dei prodotti
-        prodotti.Add(nuovoProdotto);
-
+        if (!Directory.Exists(path))
+            Directory.CreateDirectory(path);
     }
-    int CalcolaNuovoId(List<string[]> prodotti)
+int CalcolaNuovoId(List<string[]> prodotti)
     {
         // se non ci sono nuovi prodotti return a 1
         if (prodotti.Count == 0)
@@ -43,5 +18,157 @@ while (true)
         int ultimoId = int.Parse(ultimoProdotto[0]);
         return ultimoId + 1;
     }
+List<string> ListFiles(string path)
+{
+    if (!Directory.Exists(path))
+    {
+        string[] files = Directory.GetFiles(path);
+        foreach (var f in files)
+        {
+            Console.WriteLine(path.GetFileName(files))
+        }
+    }
+    else
+    {
+        Console.WriteLine("La cartella non esiste");
+    }
+}
+void ReadProduct(string path)
+{
+    if (!File.Exists(path))
+    {
+        Console.WriteLine("File Json non trovato..")
+        return new List<string>();
+    }
+    string contenutoJson = File.ReadAllText(path);
+    List<string> product = JsonConvert.DeserializeObject<List<string>>(contenutoJson);
+}
+void WriteProduct(product, path)
+{
+    string json = JsonConvert.SerializeObject(product, Formatting.Indented);
+    File.WriteAllText(path, json);
+   Console.WriteLine("File json salvato");
+}
+void DeleteFile(string path)
+    {
+        if (File.Exists(path)) // controllo che il file esista
+        {
+            File.Delete(path);
+            Console.WriteLine("File Eliminato con successo.");
+        }
+        else
+        {
+            Console.WriteLine("File non trovato o non esistente.");
+        }
+    }
+void ModificaFiles()
+    {
+       
+        if (!File.Exists(path))
+        {
+            Console.WriteLine("File non trovato o non esistente");
+            return;
+        }
+        string json = File.ReadAllText(path);
+        Product p = JsonConvert.DeserializeObject<Product>(json);
+        Console.Write("Quantità:");
 
+    }
+string ReadString(string prompt)
+{
+    Console.Write(prompt);
+    return Console.ReadLine();
+}
+int ReadInt (string prompt)
+{
+    int valore;
+    while (true)
+    {
+        Console.WriteLine(prompt);
+        string input = Console.ReadLine();
+        if (int.TryParse(input, out valore))
+        {
+            return valore;
+        }
+        else
+        {
+            Console.WriteLine("Inserisci un numero valido");
+        }
+    }
+}
+bool ReadBool(string prompt)
+{
+    while (true)
+    {
+        Console.WriteLine(prompt + " (s/n): ");
+        string input = Console.ReadLine().ToLower();
+        if (input == "s")
+        {
+            return true;
+        }
+        else if (input == "n")
+        {
+            return false;
+        }
+        else
+        {
+            Console.WriteLine("Inserisci 's' per si o 'n' per no")
+        }
+    }
+}
+void AggiungiProdotto(List<string[]> prodotti)
+{
+        // chiediamo all'utente di inserire il nome del prodotto
+        Console.WriteLine("Inserisci il nome del prodotto: ");
+        //acquisiamo il nome del prodotto
+        string nome = Console.ReadLine();
+        // chiediamo la quantita
+        Console.WriteLine("Inserisci la quantita del prodotto: ");
+        int quantita = Console.ReadLine();
+
+        
+    
+        // calcoliamo il nuovo id per il prodotto
+    int nuovoId = CalcolaNuovoId(prodotti);
+        string[] nuovoProdotto = new string[] { nuovoId.ToString(), nome, prezzo.ToString("F2") }; // F2 serve per formattare il prezzo con due decimali
+        nuovoProdotto[2] = nuovoProdotto[2].Replace(",", ".");
+        // Aggiungiamo il nuovo prodotto alla lista dei prodotti
+        prodotti.Add(nuovoProdotto);
+
+}
+
+
+
+while (true)
+{
+    Console.WriteLine("MENU");
+    Console.WriteLine("/nDimmi se vuoi: 1)aggiungere, 2)modificare, 3)eliminare o 4)visualizzare un file/n esc per uscire");
+
+    string scelta = Console.ReadLine();
+    if (scelta == "esc")
+    {
+        Console.WriteLine("ok abbiamo finito");
+    }
+    switch (scelta)
+    {
+        case "1": AggiungiProdotto(); break;
+        case "2": ModificaFiles(); break;
+        case "3": EliminaFiles(); break;
+        case "4": VisualizzaFiles(); break;
+        default: Console.WriteLine("Scelta non valida");
+    }
+}
+class Product
+{
+    public string id { get; set; }
+    public string nome { get; set; }
+    public List<string> categoria { get; set; }
+    public int quantita { get; set; }
+    public bool disponibile { get; set; }
+    public Posizione Posizione { get; set; }
+}
+class Posizione
+{
+    public string magazzino { get; set; }
+    public int scaffale { get; set; }
 }
