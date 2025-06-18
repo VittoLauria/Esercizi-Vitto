@@ -38,4 +38,11 @@ prodotti/12345.json
 
 Descrizione funzioni e utilizzi
 
-Ho inserito per prima la funzione per aggiungere i prodotti
+Inserisco per prime le funzioni che mi servono:
+1 Aggiungi un nuovo prodotto:dove chiedo all'utente di inserire le varie informazioni sul prodotto e crea logetto
+2 Modifica disponibilita e quantita: chiedo l'id del prodotto controllo che il file esista,se esiste legge il file json e deserializzo loggetto,poi chiede i nuovi valori e li aggiorna
+3 limina prodotto: chiedo l'id e verrifico se esiste il file,se esiste lo cancella
+4 Elenco prodotti; mostra tutti i file json presenti nella cartella
+5Visualizza contenuto di un prodotto:Chiedo l'id poi lo legge e stampa il contenuto del file json formattato
+6 Visualizza prodotti per categoria: Carica i prodotti, se un prodotto è disponibile lo aggiuge ad una lista per categoria,poi stampa ogni categoria con i prodotti
+7 Visualizza per magazzino: Carica i prodotti, se un prodotto è disponibile lo aggiunge e stmpa ogni magazzino con i prodotti e le quantità

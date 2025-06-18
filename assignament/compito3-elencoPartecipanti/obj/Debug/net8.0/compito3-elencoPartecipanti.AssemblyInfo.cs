@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("compito3-elencoPartecipanti")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99d61f53bcdc8ea42181e8b3f550a2266b9d6604")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d3d7a7c0a0f88469e5f36c47eb3c57cf497dd9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("compito3-elencoPartecipanti")]
 [assembly: System.Reflection.AssemblyTitleAttribute("compito3-elencoPartecipanti")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
