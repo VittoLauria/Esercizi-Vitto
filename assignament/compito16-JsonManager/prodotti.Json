@@ -1,0 +1,11 @@
+{
+    "codice": "12345",
+    "nome" : "Prodotto 1",
+    "disponibile": true,
+    "quantita": 100,
+    "categorie" : ["Elettroncia", "Computer"]
+    "posizione" : {
+        "magazzino": "magazzino-1",
+        "scaffale": 20
+    }
+}

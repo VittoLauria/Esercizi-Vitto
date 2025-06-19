@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
-string dir = @"Libreria";
-string path = "Data";
-void VerificaFolders()
+string path = @"c:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager";
+void VerificaFolders(string path)
     {
         if (!Directory.Exists(path))
             Directory.CreateDirectory(path);
@@ -18,14 +17,14 @@ int CalcolaNuovoId(List<string[]> prodotti)
         int ultimoId = int.Parse(ultimoProdotto[0]);
         return ultimoId + 1;
     }
-List<string> ListFiles(string path)
+List<string> ListFiles(List<string> path)
 {
     if (!Directory.Exists(path))
     {
         string[] files = Directory.GetFiles(path);
-        foreach (var f in files)
+        foreach (var file in files)
         {
-            Console.WriteLine(path.GetFileName(files))
+            Console.WriteLine(path.GetFilesName(files));
         }
     }
     else
@@ -33,19 +32,19 @@ List<string> ListFiles(string path)
         Console.WriteLine("La cartella non esiste");
     }
 }
-void ReadProduct(string path)
+List<string> ReadProduct(string path)
 {
     if (!File.Exists(path))
     {
-        Console.WriteLine("File Json non trovato..")
-        return new List<string>();
+        Console.WriteLine("File Json non trovato..");
     }
     string contenutoJson = File.ReadAllText(path);
-    List<string> product = JsonConvert.DeserializeObject<List<string>>(contenutoJson);
+    List<string> prodotti = JsonConvert.DeserializeObject<List<string>>(contenutoJson);
+    return prodotti;
 }
-void WriteProduct(product, path)
+void WriteProduct(string path)
 {
-    string json = JsonConvert.SerializeObject(product, Formatting.Indented);
+    string json = JsonConvert.SerializeObject(prodotti, Formatting.Indented);
     File.WriteAllText(path, json);
    Console.WriteLine("File json salvato");
 }
@@ -61,7 +60,7 @@ void DeleteFile(string path)
             Console.WriteLine("File non trovato o non esistente.");
         }
     }
-void ModificaFiles()
+void ModificaFiles(string path)
     {
        
         if (!File.Exists(path))
@@ -112,7 +111,7 @@ bool ReadBool(string prompt)
         }
         else
         {
-            Console.WriteLine("Inserisci 's' per si o 'n' per no")
+            Console.WriteLine("Inserisci 's' per si o 'n' per no");
         }
     }
 }
@@ -124,20 +123,14 @@ void AggiungiProdotto(List<string[]> prodotti)
         string nome = Console.ReadLine();
         // chiediamo la quantita
         Console.WriteLine("Inserisci la quantita del prodotto: ");
-        int quantita = Console.ReadLine();
-
-        
-    
+        int quantita = int.Parse(Console.ReadLine());
         // calcoliamo il nuovo id per il prodotto
-    int nuovoId = CalcolaNuovoId(prodotti);
-        string[] nuovoProdotto = new string[] { nuovoId.ToString(), nome, prezzo.ToString("F2") }; // F2 serve per formattare il prezzo con due decimali
-        nuovoProdotto[2] = nuovoProdotto[2].Replace(",", ".");
+         int nuovoId = CalcolaNuovoId(prodotti);
+        string[] nuovoProdotto = new string[] { nuovoId.ToString()};
         // Aggiungiamo il nuovo prodotto alla lista dei prodotti
         prodotti.Add(nuovoProdotto);
 
 }
-
-
 
 while (true)
 {
@@ -148,14 +141,15 @@ while (true)
     if (scelta == "esc")
     {
         Console.WriteLine("ok abbiamo finito");
+        break;
     }
     switch (scelta)
     {
-        case "1": AggiungiProdotto(); break;
-        case "2": ModificaFiles(); break;
-        case "3": EliminaFiles(); break;
-        case "4": VisualizzaFiles(); break;
-        default: Console.WriteLine("Scelta non valida");
+        case "1": AggiungiProdotto(path); break;
+        case "2": ModificaFiles(path); break;
+        case "3": DeleteFiles(path); break;
+        case "4": ReadProduct(path); break;
+        default: Console.WriteLine("Scelta non valida"); break;
     }
 }
 class Product
