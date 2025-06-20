@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cartellaEs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e16aa6988af379e5edd20640cd23b61a842a773")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5863926e7bc099ec509109d37ac8b980c0e1afc")]
 [assembly: System.Reflection.AssemblyProductAttribute("cartellaEs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cartellaEs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

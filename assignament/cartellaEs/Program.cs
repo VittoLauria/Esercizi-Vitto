@@ -1,19 +1,15 @@
 ﻿using Newtonsoft.Json;
-List<string> ReadProduct(string path)
+while (true)
 {
-    if (!File.Exists(path))
+    // menu del programma
+    Console.WriteLine("MENU");
+    Console.WriteLine("Dimmi se vuoi: \n1)Aggiungere un file \n2)Modificare un file \n3)Eliminare un file specifico \n4)Visualizzare l'elenco dei file, \n5)Visualizzare un file Json specifico, \n6)Visualizza per categoria, \n7)Visualizza per magazzino  \nEsc per uscire");
+    string scelta = Console.ReadLine().ToLower();
+    if (scelta == "esc")
     {
-        Console.WriteLine("File Json non trovato..");
-        return new List<string>();
+        
+        Console.WriteLine("ok abbiamo finito");
+        break;
     }
-    string contenutoJson = File.ReadAllText(path);
-    List<string> prodotti = JsonConvert.DeserializeObject<List<string>>(contenutoJson);
-    return prodotti;
-}
-
-string origine = @"c:\Users\devops3\Documents\Esercizi-Vitto\assignament\compito16-JsonManager\prodotti.Json";
-List<string> Lacci = ReadProduct(origine);
-foreach (string lacciO in Lacci)
-{
-    Console.Write(lacciO);
+    
 }
