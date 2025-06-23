@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\bin\Debug\net8.0\16-Eccezioni.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\bin\Debug\net8.0\16-Eccezioni.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\bin\Debug\net8.0\16-Eccezioni.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\bin\Debug\net8.0\16-Eccezioni.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\bin\Debug\net8.0\16-Eccezioni.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\obj\Debug\net8.0\16-Eccezioni.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\obj\Debug\net8.0\16-Eccezioni.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\obj\Debug\net8.0\16-Eccezioni.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\obj\Debug\net8.0\16-Eccezioni.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\obj\Debug\net8.0\16-Eccezioni.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\obj\Debug\net8.0\16-Eccezioni.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\obj\Debug\net8.0\refint\16-Eccezioni.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\obj\Debug\net8.0\16-Eccezioni.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\obj\Debug\net8.0\16-Eccezioni.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\16-Eccezioni\obj\Debug\net8.0\ref\16-Eccezioni.dll

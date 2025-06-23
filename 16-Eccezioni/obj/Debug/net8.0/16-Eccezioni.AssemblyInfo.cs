@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("compito16-JsonManager")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("16-Eccezioni")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf96301528f6ee8d3c4c52218d579e889c4821f2")]
-[assembly: System.Reflection.AssemblyProductAttribute("compito16-JsonManager")]
-[assembly: System.Reflection.AssemblyTitleAttribute("compito16-JsonManager")]
+[assembly: System.Reflection.AssemblyProductAttribute("16-Eccezioni")]
+[assembly: System.Reflection.AssemblyTitleAttribute("16-Eccezioni")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.
