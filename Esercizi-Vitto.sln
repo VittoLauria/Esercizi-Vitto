@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -63,6 +63,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "compito6-assegnaPassword", "assignament\compito6-assegnaPassword\compito6-assegnaPassword.csproj", "{4BF5E2A6-401C-B7CE-6A9D-DC2EDAA8C4A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "compito1", "assignament\compito1-calcolatrice\compito1.csproj", "{5004DDFF-E7A7-3BF6-5D88-C6DC17328D99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17-fullstack", "17-fullstack", "{6A9F74ED-6DC2-4003-B9C6-B7B2831352B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18-fullstack", "18-fullstack", "{A6F71FD6-ECF8-4A1E-A524-1A46B3A608BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "17-fullstack\18-fullstack\Backend\Backend.csproj", "{441B039C-C3E9-4FE7-952D-3B342A20166A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -186,6 +192,10 @@ Global
 		{5004DDFF-E7A7-3BF6-5D88-C6DC17328D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5004DDFF-E7A7-3BF6-5D88-C6DC17328D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5004DDFF-E7A7-3BF6-5D88-C6DC17328D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441B039C-C3E9-4FE7-952D-3B342A20166A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441B039C-C3E9-4FE7-952D-3B342A20166A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441B039C-C3E9-4FE7-952D-3B342A20166A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441B039C-C3E9-4FE7-952D-3B342A20166A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -208,6 +218,8 @@ Global
 		{37C8CAD3-A8D4-5B5F-EBEC-04D29C175449} = {766990A1-0FD7-D9DA-D6CE-7C4898C67977}
 		{4BF5E2A6-401C-B7CE-6A9D-DC2EDAA8C4A0} = {766990A1-0FD7-D9DA-D6CE-7C4898C67977}
 		{5004DDFF-E7A7-3BF6-5D88-C6DC17328D99} = {766990A1-0FD7-D9DA-D6CE-7C4898C67977}
+		{A6F71FD6-ECF8-4A1E-A524-1A46B3A608BE} = {6A9F74ED-6DC2-4003-B9C6-B7B2831352B4}
+		{441B039C-C3E9-4FE7-952D-3B342A20166A} = {A6F71FD6-ECF8-4A1E-A524-1A46B3A608BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B9EBE24-D3C1-446A-AB04-FDF5E14C5DE4}
