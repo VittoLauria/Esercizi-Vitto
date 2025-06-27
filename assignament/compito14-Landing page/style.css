@@ -3,77 +3,88 @@ body {
     margin: 20px;
     padding: 10px;
     line-height: 1.5;
-    background-color: #ffffff;
-    color: #000000
+    background-color: #ff1010;
 }
+
 header {
-    
     top: 0;
-    
     padding: 5px;
 }
+
 nav {
     padding: 2.5vw;
     text-align: center;
 }
+
 nav a {
     text-decoration: none;
     margin: 0 1.5vw 2.5vw;
     font-weight: bold;
     font-size: 2.5vw;
+    border-bottom-color: #000000;
 }
 
 section {
     padding: 20px;
     margin: 10px;
 }
-#competenze {
-    margin: auto;
-    max-width: 100%;
-}
-#progress{
-    padding: 20px;
-    margin: 10px;
-}
+
 h1 {
     font-family: 'Courier New', Courier, monospace;
 }
+
 div {
-    border: 2px;   
+    border: 2px;
 }
+
 img {
     width: 100%;
     height: auto;
 }
+
 main {
     margin: auto;
-    }
-.btn-danger {
-    margin: 15vw;
-    padding: 30vw;
-    width: 50%;
+}
+.titolo {
     text-align: center;
 }
+.containerButton {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-danger {
+    margin: 1vw auto;
+    padding: 3vw;
+    width: 50%;
+}
+.btn-primary {
+  background-color: #000000;
+}
+
 @media (max-width: 1200px) {
     body {
-        background-color: #ffffff;
-        }
-          
+        background-color: #ff1010;
+    }
+
 }
+
 @media (max-width: 992px) {
     body {
-        background-color: #ffffff;
+        background-color: #ff1010;
     }
-    
+
 }
+
 @media (max-width: 768px) {
     body {
-        background-color: #ffffff;
+        background-color: #ff1010;
     }
-    
+
 }
+
 @media (max-width: 576px) {
     body {
-        background-color: #ffffff;
+        background-color: #ff1010;
     }
 }
