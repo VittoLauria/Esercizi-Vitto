@@ -11,6 +11,7 @@ while (true)
     string operatoreScelto = Console.ReadLine();
 
     int risultato = 0;
+    
     switch (operatoreScelto)
     {
         case "+":
