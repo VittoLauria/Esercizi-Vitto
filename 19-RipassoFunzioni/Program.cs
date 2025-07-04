@@ -1,6 +1,6 @@
 ﻿// App con menu e funzioni di base
 // le funzione sono dei principali tipi
-
+using Newtonsoft.Json;
 // ci sono due tipi di metodi dei quali uno e statico 
 // il metodo statico è un metodo che puo essere invocato senza creare unistanza della classe
 // static readonly -> valore condico tra tute le istanze, ma immutabile dopo linizializzazione
@@ -44,9 +44,6 @@ while (true)
     }
 }
 
-
-
-
 // funzione void: non restituisce niente
 static void EsempioVoid()
 {
@@ -78,19 +75,20 @@ static void EsempioConAzione()
     int b = int.Parse(Console.ReadLine() ?? "0");
 
     // calcolo la somma invocando la funzione somma
-    int somma = Somma(a, b);
+    int somma = EseguiSomma(a, b);
     Console.WriteLine($"La somma di {a} e {b} è: {somma}");
     Console.WriteLine("Premi un tatso per tornare al menu...");
     Console.ReadKey();
 }
 
 // funzione con tipo di ritorno: restituisce un valorer
-static int Somma(int x, int y)
+static int EseguiSomma(int x, int y)
 {
     return x + y;
 }
 
 // funzione che gestisce dati complessi: elenco libri
+/*
 static void EsempioDatiComplessi()
 {
     Console.Clear();
@@ -114,7 +112,7 @@ static void EsempioDatiComplessi()
     Console.WriteLine("Premi un tasto per tornare al menu..");
     Console.ReadKey();
 }
-
+*/
 static List<Libro> FiltraLibriLetti(List<Libro> libri)
 {
     // creo una lista per il filtraggio
@@ -126,6 +124,63 @@ static List<Libro> FiltraLibriLetti(List<Libro> libri)
     }
     return letti;
 }
+// La funzione con dati complessi dve leggere i dati da un file Json invece che da un elenco interno 
+// deve essere implementata la gestione degli errori per la lettura dei file Json
+// Funzione che gestisce dati comlessi
+static void EsempioDatiComplessi()
+{
+    Console.Clear();
+    Console.WriteLine("--- esempio con dati complessi (da Json) ---");
+
+    // percorso file Json
+    string percorsoFile = "libri.json";
+    // lista per memorizzare i libri deserializzati
+    List<Libro> elencoLibri;
+    // Proviamo a leggere il file Json implementando la gestione degli errori
+    try
+    {
+        // in questo bloccco mettiamo il codice che deve eseere provato
+        // controllo se il file esiste
+        if (!File.Exists(percorsoFile))
+            //se non esiste lanco un'eccezione FileNotFoundException
+            // il throw serve a lanciare un'eccezione personalizzata
+            throw new FileNotFoundException("File non trovato.", percorsoFile);
+        // se il file siste leggo il contenuto 
+        string contenutoJson = File.ReadAllText(percorsoFile);
+        // poi deserializzo il contenuto
+        elencoLibri = JsonConvert.DeserializeObject<List<Libro>>(contenutoJson);
+        // se la deserializzazione restituisce null lancio un eccezione JsonException per gstire errori di parsing e formattazione Json
+        if (elencoLibri == null)
+            throw new JsonException("Deserializzazione tornata null");
+    }
+    // Catch per gestire le eccezione specifiche (il file deve essre nella cartella)
+    catch (FileNotFoundException ex)
+    {
+        Console.WriteLine($"Errore: {ex.Message} ({ex.FileName})");
+        Console.WriteLine("Verifica che il file esista nella cartella dell'eseguibile");
+        Console.WriteLine("Premi un tasto per tornare al menu..");
+        Console.ReadKey();
+        return;
+    }
+    // catch per gestire eccezione specifiche (il file non e un Json valido)
+    catch (JsonException ex)
+    {
+        Console.WriteLine($"Errore parsing Json: {ex.Message}");
+        Console.WriteLine("Controlla il formato del file Json.");
+        Console.WriteLine("Premi un tasto per tornare al menu..");
+        Console.ReadKey();
+        return;
+    }
+    // catch per gestire altre eccezione generiche
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Errore imprevisto: {ex.Message}");
+        Console.WriteLine("Premi un tasto per tornare al menu..");
+        Console.ReadKey();
+        return;
+    }
+}
+
 
 
 public class Libro
@@ -140,5 +195,52 @@ public class Libro
         AnnoPubblicazione = annoPubblicazione;
         Genere = genere;
         Letto = letto;
+    }
+}
+
+
+// Versione 3 
+// separazione dell eresponsabilita con Services
+// in questa versione separiamo la logica di business n un servizio dedicato
+// In questo caso il servizio gestirà la logica di caricamento e filtraggio dei libri
+// in questo modo il codice principale rimane piu pulit e facilmente testabile
+// in questa vs diamo un senso alla funzione somma che fino ad adesso era scollegta 
+// e la usiamo in modo da calcolare il titole dei libri letti o non letti
+// anziche usare lo switch usiamo un menu con delle condizioni if (ci serve come esercizio)
+
+
+
+var servizio = new LibroService("libri.json");
+
+while (true)
+{
+    Console.Clear();
+    Console.WriteLine("=== App Per imparare le funzioni ===");
+    Console.WriteLine("1. Esempio funzione void");
+    Console.WriteLine("2. Esempio funzione con azione");
+    Console.WriteLine("3. Esempio funzione con dati complessi");
+    Console.WriteLine("0. Esci"); // esce con qualsiasi input che non sia 1 o 2 o 3
+    Console.Write("Scegli un opzione");
+    // acquisico l'input dell'utente
+    string op = Console.ReadLine();
+    // oppure acquisico direttamente l'input dell'utente pulito da spazi in eccesso facenco string op = Console.ReadLine()?.ToTrim();
+    // con il ? evito il warning del dato che potrebbe essere null
+
+
+    if (op == "1")
+    {
+        StampaSaluto();
+    }
+    else if (op == "2")
+    {
+        EseguiSomma();
+    }
+    else if (op == "3")
+    {
+        EsempioDatiComplessi(servizio);
+    }
+    else
+    {
+        break;
     }
 }

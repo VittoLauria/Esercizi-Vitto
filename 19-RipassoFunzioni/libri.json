@@ -1,0 +1,14 @@
+[
+    {
+    "Titolo":"il nome della rosa",
+    "Anno":1980,
+    "Genere":"Storico",
+    "Letto": true
+    },
+    {
+        "Titolo": "1984",
+        "Anno": 1949,
+        "Genere": "Distopico",
+        "Letto": false
+    }
+]

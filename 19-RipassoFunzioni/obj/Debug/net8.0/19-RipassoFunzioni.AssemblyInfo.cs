@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("19-RipassoFunzioni")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+889661b6cb7ee05a56a44ad079f200a4bce00c50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d792318fcf3a7df2f6e61bc6e75a1c2c6fe1297f")]
 [assembly: System.Reflection.AssemblyProductAttribute("19-RipassoFunzioni")]
 [assembly: System.Reflection.AssemblyTitleAttribute("19-RipassoFunzioni")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,3 +13,6 @@ C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\obj\Debug\net8.0\re
 C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\obj\Debug\net8.0\19-RipassoFunzioni.pdb
 C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\obj\Debug\net8.0\19-RipassoFunzioni.genruntimeconfig.cache
 C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\obj\Debug\net8.0\ref\19-RipassoFunzioni.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\obj\Debug\net8.0\19-RipassoFunzioni.csproj.AssemblyReference.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\obj\Debug\net8.0\19-Ripas.2642896E.Up2Date
