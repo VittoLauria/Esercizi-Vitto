@@ -1,0 +1,6 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\v2\obj\Debug\net8.0\v2.csproj.AssemblyReference.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\v2\obj\Debug\net8.0\v2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\v2\obj\Debug\net8.0\v2.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\v2\obj\Debug\net8.0\v2.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\v2\obj\Debug\net8.0\v2.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\19-RipassoFunzioni\v2\obj\Debug\net8.0\v2.sourcelink.json
