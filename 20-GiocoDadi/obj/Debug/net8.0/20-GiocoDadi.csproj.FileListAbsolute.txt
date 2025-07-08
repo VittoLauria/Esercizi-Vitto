@@ -1,0 +1,15 @@
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\bin\Debug\net8.0\20-GiocoDadi.exe
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\bin\Debug\net8.0\20-GiocoDadi.deps.json
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\bin\Debug\net8.0\20-GiocoDadi.runtimeconfig.json
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\bin\Debug\net8.0\20-GiocoDadi.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\bin\Debug\net8.0\20-GiocoDadi.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\obj\Debug\net8.0\20-GiocoDadi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\obj\Debug\net8.0\20-GiocoDadi.AssemblyInfoInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\obj\Debug\net8.0\20-GiocoDadi.AssemblyInfo.cs
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\obj\Debug\net8.0\20-GiocoDadi.csproj.CoreCompileInputs.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\obj\Debug\net8.0\20-GiocoDadi.sourcelink.json
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\obj\Debug\net8.0\20-GiocoDadi.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\obj\Debug\net8.0\refint\20-GiocoDadi.dll
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\obj\Debug\net8.0\20-GiocoDadi.pdb
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\obj\Debug\net8.0\20-GiocoDadi.genruntimeconfig.cache
+C:\Users\devops3\Documents\Esercizi-Vitto\20-GiocoDadi\obj\Debug\net8.0\ref\20-GiocoDadi.dll
