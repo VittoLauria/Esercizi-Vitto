@@ -15,8 +15,30 @@ namespace Backend.Services
         // CREATE
         public void AddAlbum(Album album)
         {
-            var albums = new List<Album>();
-            albums.Add(album);
+            int netxId;
+            if (album.Count > 0)
+            {
+                maxId = 0;
+                foreach (var a in _albumFile)
+                {
+                    if (a.Id > maxId) // Se l id è maggiore del massimo ID trovato
+                    {
+                        maxId = a.Id; // imposto il massimo ID a quello del prodotto corrente
+                    }
+                }
+                nextId = maxId + 1;
+            }
+            else
+            {
+                nextId = 1;
+            }
+
+            var album = GetAllAlbums();
+
+            album.Id = netxId;
+
+            album.Add(albums);
+            
             SaveAlbums(albums);
         }
         // READ

@@ -1,5 +1,6 @@
 # FullStack Versione 2
-In questa versione l'obbiettivo è implementare un servizio che prenda i contenuti da un file Json invece che da una lista interna(attualmente i dati vengono presi da ProductService quindi ogni volta che lanciamo l'applicazione le modifiche gli inserimenti ecc vengono resettati),quindi assicurare la persistenza dei dati in questa app.
+In questa versione l'obbiettivo è implementare un servizio che prenda i contenuti da un file Json invece che da una lista interna(attualmente i dati vengono presi da ProductService quindi ogni volta che lanciamo l'applicazione le modifiche gli inserimenti ecc vengono resettati)
+Quindi assicurare la persistenza dei dati in questa app.
 Il file json che contiene i dati è organizzato come una lista di oggetti(simili a dizionari).
 Il file json verra deserializzato una classe Album con le seguenti proprietà(ID(int,generato automaticamente),Titolo(string),  Anno(int), Autore(string), canzoni(List<string>), Genere(string), Ascoltato(bool))
 In questa versione non e necessario avere una gestione dell input dell'utente dato che lo scopo e quello di servire i dati al frontend tramite un servizio http

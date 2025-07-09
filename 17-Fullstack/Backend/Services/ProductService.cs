@@ -32,7 +32,7 @@ namespace Backend.Services
             return result;
         }
 
-        // metodo per ottenere un prodotto specifico in base all'ID o null se non lo trova
+       
         // public Product? GetById(int id) => _products.FirstOrDefault(p => p.Id == id); // lambda expression per trovare il primo prodotto con l'ID specificato
         // oppure con for each invece di LINQ
         public Product? GetById(int id) // metodo per ottenere un prodotto specifico in base all'ID

@@ -1,0 +1,29 @@
+[
+    {
+    "Id": 1,
+    "Titolo":"Rockstar",
+    "Anno": 2018,
+    "Autore":"SferaEbbasta",
+    "Canzoni": ["Serpente a sonagli", "Cupido","Sciroppo"],
+    "Genere":"Rap",
+    "Ascoltato": true
+    },
+    {
+    "Id": 2,
+    "Titolo":"Orange County",
+    "Anno": 2016,
+    "Autore":"Tedua",
+    "Canzoni": ["Lingerie", "OC", "Telefonate"],
+    "Genere":"Hip-Hop",
+    "Ascoltato": true
+    },
+    {
+        "Id": 3,
+    "Titolo":"Altrove",
+    "Anno": 2024,
+    "Autore":"Ultimo",
+    "Canzoni":["Bella davvero"],
+    "Genere":"Pop",
+    "Ascoltato": false
+    }
+]
