@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("compito1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f049fb2d49ad709f8e86fdccef382c1775fac428")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16cc2bc5d524d0ff8fb85d5955fb24dcb2353915")]
 [assembly: System.Reflection.AssemblyProductAttribute("compito1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("compito1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

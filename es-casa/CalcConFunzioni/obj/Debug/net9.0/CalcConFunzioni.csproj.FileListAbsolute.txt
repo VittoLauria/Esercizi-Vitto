@@ -1,0 +1,15 @@
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/obj/Debug/net9.0/CalcConFunzioni.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/obj/Debug/net9.0/CalcConFunzioni.AssemblyInfoInputs.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/obj/Debug/net9.0/CalcConFunzioni.AssemblyInfo.cs
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/obj/Debug/net9.0/CalcConFunzioni.csproj.CoreCompileInputs.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/obj/Debug/net9.0/CalcConFunzioni.sourcelink.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/bin/Debug/net9.0/CalcConFunzioni
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/bin/Debug/net9.0/CalcConFunzioni.deps.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/bin/Debug/net9.0/CalcConFunzioni.runtimeconfig.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/bin/Debug/net9.0/CalcConFunzioni.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/bin/Debug/net9.0/CalcConFunzioni.pdb
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/obj/Debug/net9.0/CalcConFunzioni.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/obj/Debug/net9.0/refint/CalcConFunzioni.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/obj/Debug/net9.0/CalcConFunzioni.pdb
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/obj/Debug/net9.0/CalcConFunzioni.genruntimeconfig.cache
+/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/CalcConFunzioni/obj/Debug/net9.0/ref/CalcConFunzioni.dll
