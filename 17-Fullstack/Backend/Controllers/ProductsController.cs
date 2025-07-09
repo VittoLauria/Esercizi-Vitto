@@ -3,7 +3,7 @@ using Backend.Services;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController] // le direttive tra parentesi quadre sono un attributo che in questo caso permette di definire la classe come un controller API
-[Route("api/[controller]")] // indica il percorso base per le richieste a questo controller
+[Route("api/products")] // indica il percorso base per le richieste a questo controller
 public class ProductsController : ControllerBase // i due punti indicano che la classe ProductsController estende la classe ControllerBase
 // quindi la classe derivata ricevera le proprieta ed i comportamenti della classe base
 {
