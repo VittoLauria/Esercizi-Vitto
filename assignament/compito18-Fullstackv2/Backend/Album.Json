@@ -8,17 +8,17 @@
     "Ascoltato": true,
     "Canzoni": [
       {
-        "CanzoniId": 1,
+        "CanzoneId": 0,
         "Titolo": "Serpente a sonagli",
         "Durata": 2.45
       },
       {
-        "CanzoniId": 2,
+        "CanzoneId": 0,
         "Titolo": "Cupido",
         "Durata": 3.1
       },
       {
-        "CanzoniId": 3,
+        "CanzoneId": 0,
         "Titolo": "Sciroppo",
         "Durata": 2.58
       }
@@ -33,17 +33,17 @@
     "Ascoltato": false,
     "Canzoni": [
       {
-        "CanzoniId": 1,
+        "CanzoneId": 0,
         "Titolo": "Neon",
         "Durata": 3.45
       },
       {
-        "CanzoniId": 2,
+        "CanzoneId": 0,
         "Titolo": "Crudelia",
         "Durata": 3.15
       },
       {
-        "CanzoniId": 3,
+        "CanzoneId": 0,
         "Titolo": "Quelli che non pensano",
         "Durata": 3.5
       }
@@ -58,17 +58,17 @@
     "Ascoltato": true,
     "Canzoni": [
       {
-        "CanzoniId": 1,
+        "CanzoneId": 0,
         "Titolo": "Netflix",
         "Durata": 2.58
       },
       {
-        "CanzoniId": 2,
+        "CanzoneId": 0,
         "Titolo": "Porto Cervo",
         "Durata": 3.12
       },
       {
-        "CanzoniId": 3,
+        "CanzoneId": 0,
         "Titolo": "Gucci Ski Mask",
         "Durata": 2.45
       }
@@ -83,17 +83,17 @@
     "Ascoltato": false,
     "Canzoni": [
       {
-        "CanzoniId": 1,
+        "CanzoneId": 0,
         "Titolo": "Crudelia - I nervi",
         "Durata": 3.45
       },
       {
-        "CanzoniId": 2,
+        "CanzoneId": 0,
         "Titolo": "Quelli che non pensano",
         "Durata": 3.3
       },
       {
-        "CanzoniId": 3,
+        "CanzoneId": 0,
         "Titolo": "Bravi a cadere",
         "Durata": 4.02
       }
@@ -108,17 +108,17 @@
     "Ascoltato": true,
     "Canzoni": [
       {
-        "CanzoniId": 1,
+        "CanzoneId": 0,
         "Titolo": "Lingerie",
         "Durata": 2.8
       },
       {
-        "CanzoniId": 2,
+        "CanzoneId": 0,
         "Titolo": "OC",
         "Durata": 2.95
       },
       {
-        "CanzoniId": 3,
+        "CanzoneId": 0,
         "Titolo": "Telefonate",
         "Durata": 3.2
       }

@@ -60,7 +60,7 @@ namespace Backend.Controllers
         
 
         [HttpDelete("{id}")]
-        public ActionResult DeleteAlbum(int id)
+        public ActionResult DeleteAlbumById(int id)
         {
             var album = _albumService.GetAlbum(id);
             if (album == null)
@@ -68,7 +68,7 @@ namespace Backend.Controllers
                 return NotFound("Errore nella cancellazione del file");
             }
             
-            _albumService.DeleteAlbum(id);
+            _albumService.DeleteAlbumById(id);
                 return NoContent();
             
         }

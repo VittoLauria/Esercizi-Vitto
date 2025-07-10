@@ -8,49 +8,19 @@
     "Ascoltato": true,
     "Canzoni": [
       {
-        "CanzoneId": 1,
+        "CanzoneId": 0,
         "Titolo": "Serpente a sonagli",
         "Durata": 2.45
       },
       {
-        "CanzoneId": 2,
+        "CanzoneId": 0,
         "Titolo": "Cupido",
         "Durata": 3.1
       },
       {
-        "CanzoneId": 3,
+        "CanzoneId": 0,
         "Titolo": "Sciroppo",
         "Durata": 2.58
-      }
-    ]
-  },
-  {
-    "Id": 2,
-    "Titolo": "Orange County",
-    "Anno": 2016,
-    "Autore": "Tedua",
-    "Genere": "Hip-Hop",
-    "Ascoltato": false,
-    "Canzoni": [
-      {
-        "CanzoneId": 1,
-        "Titolo": "Lingerie",
-        "Durata": 2.8
-      },
-      {
-        "CanzoneId": 2,
-        "Titolo": "OC",
-        "Durata": 2.95
-      },
-      {
-        "CanzoneId": 3,
-        "Titolo": "Telefonate",
-        "Durata": 3.2
-      },
-      {
-        "CanzoneId": 4,
-        "Titolo": "Mare Mosso",
-        "Durata": 2.9
       }
     ]
   },
@@ -63,17 +33,17 @@
     "Ascoltato": false,
     "Canzoni": [
       {
-        "CanzoneId": 1,
+        "CanzoneId": 0,
         "Titolo": "Neon",
         "Durata": 3.45
       },
       {
-        "CanzoneId": 2,
+        "CanzoneId": 0,
         "Titolo": "Crudelia",
         "Durata": 3.15
       },
       {
-        "CanzoneId": 3,
+        "CanzoneId": 0,
         "Titolo": "Quelli che non pensano",
         "Durata": 3.5
       }
@@ -88,17 +58,17 @@
     "Ascoltato": true,
     "Canzoni": [
       {
-        "CanzoneId": 1,
+        "CanzoneId": 0,
         "Titolo": "Netflix",
         "Durata": 2.58
       },
       {
-        "CanzoneId": 2,
+        "CanzoneId": 0,
         "Titolo": "Porto Cervo",
         "Durata": 3.12
       },
       {
-        "CanzoneId": 3,
+        "CanzoneId": 0,
         "Titolo": "Gucci Ski Mask",
         "Durata": 2.45
       }
@@ -113,19 +83,44 @@
     "Ascoltato": false,
     "Canzoni": [
       {
-        "CanzoneId": 1,
+        "CanzoneId": 0,
         "Titolo": "Crudelia - I nervi",
         "Durata": 3.45
       },
       {
-        "CanzoneId": 2,
+        "CanzoneId": 0,
         "Titolo": "Quelli che non pensano",
         "Durata": 3.3
       },
       {
-        "CanzoneId": 3,
+        "CanzoneId": 0,
         "Titolo": "Bravi a cadere",
         "Durata": 4.02
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Titolo": "Orange County",
+    "Anno": 2016,
+    "Autore": "Tedua",
+    "Genere": "Hip-Hop",
+    "Ascoltato": true,
+    "Canzoni": [
+      {
+        "CanzoneId": 0,
+        "Titolo": "Lingerie",
+        "Durata": 2.8
+      },
+      {
+        "CanzoneId": 0,
+        "Titolo": "OC",
+        "Durata": 2.95
+      },
+      {
+        "CanzoneId": 0,
+        "Titolo": "Telefonate",
+        "Durata": 3.2
       }
     ]
   }

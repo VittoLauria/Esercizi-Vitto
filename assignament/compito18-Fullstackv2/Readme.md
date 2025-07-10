@@ -25,5 +25,5 @@ curl -X POST http://localhost:5000/albums
     "autore": "Artista Test",
     "canzoni": ["Canzone1", "Canzone 2"],
     "genere": "Pop",
-    "acoltato": false
+    "ascoltato": false
 }

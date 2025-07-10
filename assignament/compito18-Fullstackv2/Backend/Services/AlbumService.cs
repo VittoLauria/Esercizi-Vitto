@@ -15,7 +15,7 @@ namespace Backend.Services
         // CREATE
         public void AddAlbum(Album album)
         {
-        
+
             var albums = GetAllAlbums() ?? new List<Album>();
             int nuovoId = 1;
             foreach (var a in albums)
@@ -31,17 +31,17 @@ namespace Backend.Services
                 int canzoneId = 1;
                 foreach (var c in album.Canzoni)
                 {
-                    c.CanzoniId = canzoneId;
+                    c.CanzoneId = canzoneId;
                     canzoneId++;
                 }
             }
 
             albums.Add(album);
-            
+
             SaveAlbums(albums);
         }
 
-       
+
         // READ
         public List<Album> GetAllAlbums()
         {
@@ -87,15 +87,40 @@ namespace Backend.Services
             }
             if (albumScelto != null)
             {
-                albumScelto.Canzoni = updateAlbum.Canzoni;
+                // Trova il massimo CanzoneId già usato
+                int maxCanzoneId = 0;
+                foreach (var a in albums)
+                {
+                    foreach (var c in a.Canzoni)
+                    {
+                        if (c.CanzoneId > maxCanzoneId)
+                        {
+                            maxCanzoneId = c.CanzoneId;
+                        }
+                    }
+                }
+
+                // Assegna nuovi ID alle canzoni aggiornate
+                foreach (var canzone in updateAlbum.Canzoni)
+                {
+                    maxCanzoneId++;
+                   
+                }
+
+                // Aggiorna i campi dell'album
+                albumScelto.Titolo = updateAlbum.Titolo;
+                albumScelto.Autore = updateAlbum.Autore;
+                albumScelto.Genere = updateAlbum.Genere;
+                albumScelto.Anno = updateAlbum.Anno;
                 albumScelto.Ascoltato = updateAlbum.Ascoltato;
+                albumScelto.Canzoni = updateAlbum.Canzoni;
+
                 SaveAlbums(albums);
             }
-        
         }
 
         // DELETE
-        public void DeleteAlbum(int id)
+        public void DeleteAlbumById(int id)
         {
             var albums = GetAllAlbums();
             Album albumDaEliminare = null;
