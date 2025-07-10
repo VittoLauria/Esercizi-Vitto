@@ -1,5 +1,3 @@
-using Backend.Models;
-
 
 namespace Backend.Models
 {
@@ -12,9 +10,9 @@ namespace Backend.Models
         public string Genere { get; set; }
 
         public bool Ascoltato { get; set; }
-        public List<string> Canzoni { get; set; } = new List<Canzone>();
-    }
-    public Album(string titolo, int anno, string autore, string genere, bool ascoltato, List<string> canzoni)
+        public List<Canzone> Canzoni { get; set; } = new List<Canzone>();
+
+         public Album(string titolo, int anno, string autore, string genere, bool ascoltato, List<Canzone> canzoni)
         {
             Titolo = titolo;
             Anno = anno;
@@ -25,4 +23,6 @@ namespace Backend.Models
         }
     public Album() { } // Costruttore vuoto per la serializzazione/deserializzazione
 
+    }
+   
 }

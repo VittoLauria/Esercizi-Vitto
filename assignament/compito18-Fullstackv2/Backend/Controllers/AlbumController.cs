@@ -10,7 +10,7 @@ namespace Backend.Controllers
     public class AlbumController : ControllerBase
     {
         private readonly AlbumService _albumService;
-        public AlbumController(AlbumSerive albumService)
+        public AlbumController(AlbumService albumService)
         {
             _albumService = albumService;
         }
@@ -28,7 +28,7 @@ namespace Backend.Controllers
         public ActionResult<Album> GetAlbum(int id)
         {
             var album = _albumService.GetAlbum(id);
-            if (album is null)
+            if (album == null)
             {
                 return NotFound();
             }
@@ -42,39 +42,35 @@ namespace Backend.Controllers
             return CreatedAtAction(nameof(GetAlbum),new { id = album.Id },album);
         }
 
-        [HttpDelete("{id}")]
+   
 
-        public ActionResult DeleteAlbum(int id)
-        {
-            _albumService.DeleteAlbum(id);
-        }
 
-        [HtppPost("{id}")]
-        public ActionResult UpdateAlbum(int id)
+        [HttpPut("{id}")]
+        public ActionResult UpdateAlbum(int id, Album updatedAlbum)
         {
-            bool success = _albumService.UpdateAlbum(id);
-            if (success == false)
+            var album = _albumService.GetAlbum(id);
+            if (album == null)
             {
                 return NotFound("Errore nella modificazione del file");
             }
-            else
-            {
-                return NoContent();
-            }
+          
+            _albumService.UpdateAlbum(id, updatedAlbum);
+                return Accepted(new { message = "Album modificato" });
         }
+        
 
         [HttpDelete("{id}")]
         public ActionResult DeleteAlbum(int id)
         {
-            bool success = _albumService.DeleteAlbum(id);
-            if (success == false)
+            var album = _albumService.GetAlbum(id);
+            if (album == null)
             {
                 return NotFound("Errore nella cancellazione del file");
             }
-            else
-            {
+            
+            _albumService.DeleteAlbum(id);
                 return NoContent();
-            }
+            
         }
 
     }

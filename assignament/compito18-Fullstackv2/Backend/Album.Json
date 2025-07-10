@@ -1,29 +1,127 @@
 [
-    {
+  {
     "Id": 1,
-    "Titolo":"Rockstar",
+    "Titolo": "Rockstar",
     "Anno": 2018,
-    "Autore":"SferaEbbasta",
-    "Canzoni": ["Serpente a sonagli", "Cupido","Sciroppo"],
-    "Genere":"Rap",
-    "Ascoltato": true
-    },
-    {
-    "Id": 2,
-    "Titolo":"Orange County",
+    "Autore": "SferaEbbasta",
+    "Genere": "Rap",
+    "Ascoltato": true,
+    "Canzoni": [
+      {
+        "CanzoniId": 1,
+        "Titolo": "Serpente a sonagli",
+        "Durata": 2.45
+      },
+      {
+        "CanzoniId": 2,
+        "Titolo": "Cupido",
+        "Durata": 3.1
+      },
+      {
+        "CanzoniId": 3,
+        "Titolo": "Sciroppo",
+        "Durata": 2.58
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Titolo": "Vita Vera",
+    "Anno": 2020,
+    "Autore": "Marracash",
+    "Genere": "Rap",
+    "Ascoltato": false,
+    "Canzoni": [
+      {
+        "CanzoniId": 1,
+        "Titolo": "Neon",
+        "Durata": 3.45
+      },
+      {
+        "CanzoniId": 2,
+        "Titolo": "Crudelia",
+        "Durata": 3.15
+      },
+      {
+        "CanzoniId": 3,
+        "Titolo": "Quelli che non pensano",
+        "Durata": 3.5
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Titolo": "Re Mida",
+    "Anno": 2019,
+    "Autore": "Lazza",
+    "Genere": "Trap",
+    "Ascoltato": true,
+    "Canzoni": [
+      {
+        "CanzoniId": 1,
+        "Titolo": "Netflix",
+        "Durata": 2.58
+      },
+      {
+        "CanzoniId": 2,
+        "Titolo": "Porto Cervo",
+        "Durata": 3.12
+      },
+      {
+        "CanzoniId": 3,
+        "Titolo": "Gucci Ski Mask",
+        "Durata": 2.45
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Titolo": "Persona",
+    "Anno": 2019,
+    "Autore": "Marracash",
+    "Genere": "Rap",
+    "Ascoltato": false,
+    "Canzoni": [
+      {
+        "CanzoniId": 1,
+        "Titolo": "Crudelia - I nervi",
+        "Durata": 3.45
+      },
+      {
+        "CanzoniId": 2,
+        "Titolo": "Quelli che non pensano",
+        "Durata": 3.3
+      },
+      {
+        "CanzoniId": 3,
+        "Titolo": "Bravi a cadere",
+        "Durata": 4.02
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Titolo": "Orange County",
     "Anno": 2016,
-    "Autore":"Tedua",
-    "Canzoni": ["Lingerie", "OC", "Telefonate"],
-    "Genere":"Hip-Hop",
-    "Ascoltato": true
-    },
-    {
-        "Id": 3,
-    "Titolo":"Altrove",
-    "Anno": 2024,
-    "Autore":"Ultimo",
-    "Canzoni":["Bella davvero"],
-    "Genere":"Pop",
-    "Ascoltato": false
-    }
+    "Autore": "Tedua",
+    "Genere": "Hip-Hop",
+    "Ascoltato": true,
+    "Canzoni": [
+      {
+        "CanzoniId": 1,
+        "Titolo": "Lingerie",
+        "Durata": 2.8
+      },
+      {
+        "CanzoniId": 2,
+        "Titolo": "OC",
+        "Durata": 2.95
+      },
+      {
+        "CanzoniId": 3,
+        "Titolo": "Telefonate",
+        "Durata": 3.2
+      }
+    ]
+  }
 ]

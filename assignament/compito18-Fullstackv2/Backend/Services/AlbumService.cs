@@ -15,36 +15,37 @@ namespace Backend.Services
         // CREATE
         public void AddAlbum(Album album)
         {
-            int netxId;
-            if (album.Count > 0)
+        
+            var albums = GetAllAlbums() ?? new List<Album>();
+            int nuovoId = 1;
+            foreach (var a in albums)
             {
-                maxId = 0;
-                foreach (var a in _albumFile)
+                if (a.Id >= nuovoId)
                 {
-                    if (a.Id > maxId) // Se l id è maggiore del massimo ID trovato
-                    {
-                        maxId = a.Id; // imposto il massimo ID a quello del prodotto corrente
-                    }
+                    nuovoId = a.Id + 1;
                 }
-                nextId = maxId + 1;
             }
-            else
+            album.Id = nuovoId;
+            if (album.Canzoni != null)
             {
-                nextId = 1;
+                int canzoneId = 1;
+                foreach (var c in album.Canzoni)
+                {
+                    c.CanzoniId = canzoneId;
+                    canzoneId++;
+                }
             }
 
-            var album = GetAllAlbums();
-
-            album.Id = netxId;
-
-            album.Add(albums);
+            albums.Add(album);
             
             SaveAlbums(albums);
         }
+
+       
         // READ
         public List<Album> GetAllAlbums()
         {
-            if (!File.Exist(_albumFile))
+            if (!File.Exists(_albumFile))
             {
                 throw new FileNotFoundException("File non trovato");
             }
@@ -55,7 +56,8 @@ namespace Backend.Services
 
         public Album GetAlbum(int id)
         {
-            foreach (var album in _albumFile)
+            var albums = GetAllAlbums();
+            foreach (var album in albums)
             {
                 if (album.Id == id)
                 {
@@ -66,10 +68,15 @@ namespace Backend.Services
         }
 
         // UPDATE
-        public void UpdateAlbum(int id, Album Updatealbum)
+        public void UpdateAlbum(int id, Album updateAlbum)
         {
-            var album = GetAllAlbums(id);
+            if (updateAlbum == null)
+            {
+                return;
+            }
+            var albums = GetAllAlbums();
             Album albumScelto = null;
+
             foreach (var album in albums)
             {
                 if (album.Id == id)
@@ -80,28 +87,29 @@ namespace Backend.Services
             }
             if (albumScelto != null)
             {
-                albumScelto.Canzoni = Updatealbum.Canzoni;
-                albumScelto.Ascoltato = Updatealbum.Ascoltato;
-                SaveAlbums(albums); 
+                albumScelto.Canzoni = updateAlbum.Canzoni;
+                albumScelto.Ascoltato = updateAlbum.Ascoltato;
+                SaveAlbums(albums);
             }
+        
         }
 
         // DELETE
         public void DeleteAlbum(int id)
         {
-            var album = GetAllAlbums(id);
-            Album albumScelto = null;
+            var albums = GetAllAlbums();
+            Album albumDaEliminare = null;
             foreach (var album in albums)
             {
                 if (album.Id == id)
                 {
-                    albumScelto = album;
+                    albumDaEliminare = album;
                     break;
                 }
             }
-            if (albumScelto != null)
+            if (albumDaEliminare != null)
             {
-                albumScelto.Remove(albumScelto);
+                albums.Remove(albumDaEliminare);
                 SaveAlbums(albums);
             }
         }
