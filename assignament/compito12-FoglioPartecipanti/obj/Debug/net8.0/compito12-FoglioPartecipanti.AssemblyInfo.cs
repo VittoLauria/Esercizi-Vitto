@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("compito12-FoglioPartecipanti")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9953015d7c75e473b02d720a19452f70f9d9ef0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e396309cfa5898afef8d275a969e5ffa0b7a321")]
 [assembly: System.Reflection.AssemblyProductAttribute("compito12-FoglioPartecipanti")]
 [assembly: System.Reflection.AssemblyTitleAttribute("compito12-FoglioPartecipanti")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

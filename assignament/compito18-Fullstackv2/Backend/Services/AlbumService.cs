@@ -5,14 +5,17 @@ namespace Backend.Services
 {
     public class AlbumService
     {
+        // istanziamo il percorso del file in modo privato perchè deve essere possibile modificarlo soltanto una volta
         private readonly string _albumFile;
 
         public AlbumService(string albumFile = "Album.json")
         {
+            // lo rendiamo pubblico per essere accessibile dalle classi esterne(Controller)
             _albumFile = albumFile;
         }
         //-----------------------METODI CRUD(Create(aggiungi)-Read(leggi/Visualizza)-Update(modifica)Delete(elimina)--------------------------
         // CREATE
+        // aggiunge un nuovo album all'interno del file 
         public void AddAlbum(Album album)
         {
 
@@ -43,6 +46,7 @@ namespace Backend.Services
 
 
         // READ
+        // Leggiamo i contenuti all'interno del file i ritorna l'elenco completo degli album
         public List<Album> GetAllAlbums()
         {
             if (!File.Exists(_albumFile))
@@ -53,7 +57,7 @@ namespace Backend.Services
             var albums = JsonConvert.DeserializeObject<List<Album>>(json);
             return albums ?? new List<Album>();
         }
-
+        // leggiamo e prendiamo soltanto un album all'interno del file Json
         public Album GetAlbum(int id)
         {
             var albums = GetAllAlbums();
@@ -68,6 +72,7 @@ namespace Backend.Services
         }
 
         // UPDATE
+        // modificamo un album all'interno del file
         public void UpdateAlbum(int id, Album updateAlbum)
         {
             if (updateAlbum == null)
@@ -87,7 +92,7 @@ namespace Backend.Services
             }
             if (albumScelto != null)
             {
-                // Trova il massimo CanzoneId già usato
+                // Trova il massimo Id già usato
                 int maxCanzoneId = 0;
                 foreach (var a in albums)
                 {
@@ -104,7 +109,7 @@ namespace Backend.Services
                 foreach (var canzone in updateAlbum.Canzoni)
                 {
                     maxCanzoneId++;
-                   
+
                 }
 
                 // Aggiorna i campi dell'album
@@ -120,10 +125,13 @@ namespace Backend.Services
         }
 
         // DELETE
+        // Cancella un album specifico all'intenro del file 
         public void DeleteAlbumById(int id)
         {
+            // andiamo a leggere tutto il file json
             var albums = GetAllAlbums();
             Album albumDaEliminare = null;
+            // ciciliamo per gli album all'interno del file Json
             foreach (var album in albums)
             {
                 if (album.Id == id)
@@ -140,8 +148,10 @@ namespace Backend.Services
         }
 
         // SAVE
+        // Andiamo a salvare le modifiche che facciamo con i metodi (Add,Update) agli album che sono presenti all'intenro del file
         private void SaveAlbums(List<Album> albums)
         {
+            // serializzo l'album creato con il metodo Add all'interno del file Json 
             var Json = JsonConvert.SerializeObject(albums, Formatting.Indented);
             File.WriteAllText(_albumFile, Json);
         }

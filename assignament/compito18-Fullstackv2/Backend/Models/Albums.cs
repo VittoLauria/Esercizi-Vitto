@@ -1,6 +1,7 @@
 
 namespace Backend.Models
 {
+    // creiamo la classe album 
     public class Album
     {
         public int Id { get; set; }
@@ -11,8 +12,8 @@ namespace Backend.Models
 
         public bool Ascoltato { get; set; }
         public List<Canzone> Canzoni { get; set; } = new List<Canzone>();
-
-         public Album(string titolo, int anno, string autore, string genere, bool ascoltato, List<Canzone> canzoni)
+        // costruttore di defautl
+        public Album(string titolo, int anno, string autore, string genere, bool ascoltato, List<Canzone> canzoni)
         {
             Titolo = titolo;
             Anno = anno;
@@ -21,7 +22,8 @@ namespace Backend.Models
             Ascoltato = ascoltato;
             Canzoni = canzoni;
         }
-    public Album() { } // Costruttore vuoto per la serializzazione/deserializzazione
+        // Costruttore vuoto per la serializzazione/deserializzazione
+        public Album() { } 
 
     }
    

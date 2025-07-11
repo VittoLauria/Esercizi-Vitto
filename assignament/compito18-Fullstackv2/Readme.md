@@ -27,3 +27,9 @@ curl -X POST http://localhost:5000/albums
     "genere": "Pop",
     "ascoltato": false
 }
+
+// SPIEGAZIONE PROGRAMMA
+Questo programma legge i dati di una collezione di Album musicali da un file Json
+-Utilizziamo le classi Album.cs e Canzone.cs per rappresentare i dati 
+-Creiamo i servizi che il programma sara in grado di gestire.(Albumservice,AlbumController)
+-I servizi all'intenro contengono le varie funzioni che servono al computer per far funzionare correttamente il programma 
