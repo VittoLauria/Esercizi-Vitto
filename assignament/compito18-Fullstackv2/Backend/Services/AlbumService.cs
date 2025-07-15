@@ -8,7 +8,7 @@ namespace Backend.Services
         // istanziamo il percorso del file in modo privato perchè deve essere possibile modificarlo soltanto una volta
         private readonly string _albumFile;
 
-        public AlbumService(string albumFile = "Album.json")
+        public AlbumService(string albumFile = "Data/Album.json")
         {
             // lo rendiamo pubblico per essere accessibile dalle classi esterne(Controller)
             _albumFile = albumFile;

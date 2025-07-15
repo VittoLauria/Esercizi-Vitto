@@ -98,30 +98,5 @@
         "Durata": 4.02
       }
     ]
-  },
-  {
-    "Id": 8,
-    "Titolo": "Vita Vera",
-    "Anno": 2020,
-    "Autore": "Marracash",
-    "Genere": "Rap",
-    "Ascoltato": false,
-    "Canzoni": [
-      {
-        "CanzoneId": 1,
-        "Titolo": "Neon",
-        "Durata": 3.45
-      },
-      {
-        "CanzoneId": 2,
-        "Titolo": "Crudelia",
-        "Durata": 3.15
-      },
-      {
-        "CanzoneId": 3,
-        "Titolo": "Quelli che non pensano",
-        "Durata": 3.5
-      }
-    ]
   }
 ]

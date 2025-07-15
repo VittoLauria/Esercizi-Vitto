@@ -1,0 +1,28 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Vittorio",
+    "Eta": 24,
+    "DataNascita": "2001-03-15T00:00:00",
+    "DataNascitaFormattata": "15/03/2001",
+    "Indirizzo": {
+      "Citta": "Milano",
+      "Via": "Via Roma",
+      "Civ": 12,
+      "CAP": "20100"
+    }
+  },
+  {
+    "Id": 2,
+    "Nome": "Luca",
+    "Eta": 30,
+    "DataNascita": "1998-03-28T00:00:00",
+    "DataNascitaFormattata": "28/03/1998",
+    "Indirizzo": {
+      "Citta": "Genova",
+      "Via": "Via Milano",
+      "Civ": 71,
+      "CAP": "16146"
+    }
+  }
+]

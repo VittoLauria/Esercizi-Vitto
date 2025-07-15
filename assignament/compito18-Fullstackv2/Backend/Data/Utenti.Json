@@ -1,0 +1,41 @@
+[
+  {
+    "DataNascita": "2001-03-15T00:00:00",
+    "Id": 1,
+    "Nome": "Vittorio",
+    "Eta": 24,
+    "DataNascitaFormattata": "15/03/2001",
+    "Indirizzo": {
+      "Citta": "Milano",
+      "Via": "Via Roma",
+      "Civ": 12,
+      "CAP": "20100"
+    }
+  },
+  {
+    "DataNascita": "1998-03-28T00:00:00",
+    "Id": 2,
+    "Nome": "Luca",
+    "Eta": 30,
+    "DataNascitaFormattata": "28/03/1998",
+    "Indirizzo": {
+      "Citta": "Genova",
+      "Via": "Via Milano",
+      "Civ": 71,
+      "CAP": "16146"
+    }
+  },
+  {
+    "DataNascita": "0001-01-01T00:00:00",
+    "Id": 3,
+    "Nome": "Fabrizio",
+    "Eta": 14,
+    "DataNascitaFormattata": "01/01/0001",
+    "Indirizzo": {
+      "Citta": "Roma",
+      "Via": "Via degli Artisti",
+      "Civ": 8,
+      "CAP": "73279"
+    }
+  }
+]

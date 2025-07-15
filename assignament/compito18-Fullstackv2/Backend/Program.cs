@@ -14,6 +14,7 @@ builder.Services.AddControllers();
 // 2. Registra il servizio in-memory per i prodotti
 // in pratica vado a simulare un archivio di dati dato che non posso farlo nel program principale lo faccio in una folders servizi
 builder.Services.AddSingleton<AlbumService>();
+builder.Services.AddSingleton<UtenteService>();
 
 // 3. Configura CORS per permettere tutte le origini (sviluppo locale)
 // CORS (Cross-Origin Resource Sharing) è una politica di sicurezza che permette o blocca le richieste tra domini diversi

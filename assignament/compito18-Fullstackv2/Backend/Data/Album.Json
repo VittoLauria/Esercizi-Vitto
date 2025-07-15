@@ -98,30 +98,5 @@
         "Durata": 4.02
       }
     ]
-  },
-  {
-    "Id": 7,
-    "Titolo": "Orange County",
-    "Anno": 2016,
-    "Autore": "Tedua",
-    "Genere": "Hip-Hop",
-    "Ascoltato": true,
-    "Canzoni": [
-      {
-        "CanzoneId": 0,
-        "Titolo": "Lingerie",
-        "Durata": 2.8
-      },
-      {
-        "CanzoneId": 0,
-        "Titolo": "OC",
-        "Durata": 2.95
-      },
-      {
-        "CanzoneId": 0,
-        "Titolo": "Telefonate",
-        "Durata": 3.2
-      }
-    ]
   }
 ]

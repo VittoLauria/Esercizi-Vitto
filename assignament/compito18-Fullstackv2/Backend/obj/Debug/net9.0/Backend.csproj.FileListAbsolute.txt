@@ -6,7 +6,6 @@
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/obj/Debug/net9.0/Backend.MvcApplicationPartsAssemblyInfo.cs
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/obj/Debug/net9.0/Backend.MvcApplicationPartsAssemblyInfo.cache
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/obj/Debug/net9.0/Backend.sourcelink.json
-/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/bin/Debug/net9.0/Album.Json
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/bin/Debug/net9.0/appsettings.Development.json
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/bin/Debug/net9.0/appsettings.json
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/bin/Debug/net9.0/Backend.staticwebassets.endpoints.json
@@ -29,3 +28,5 @@
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/obj/Debug/net9.0/Backend.pdb
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/obj/Debug/net9.0/Backend.genruntimeconfig.cache
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/obj/Debug/net9.0/ref/Backend.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/bin/Debug/net9.0/Data/Album.Json
+/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/bin/Debug/net9.0/Data/Utenti.Json
