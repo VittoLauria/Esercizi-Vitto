@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("compito6-assegnaPassword")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2144987e73c6b0382cc019a08f6026390ea3afd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd4314af3ac5d003f62f114e6434b591df847da2")]
 [assembly: System.Reflection.AssemblyProductAttribute("compito6-assegnaPassword")]
 [assembly: System.Reflection.AssemblyTitleAttribute("compito6-assegnaPassword")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

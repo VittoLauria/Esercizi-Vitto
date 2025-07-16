@@ -67,7 +67,7 @@ Angular deserializza in oggetti TypeScript conformi all’interfaccia Prodotto.
 
 Angular utilizza RxJS (Observable, subscribe) per gestire la risposta.
 
-Eventuali errori HTTP (404, 500) vengono intercettati e mostrati all’utente tramite un componente di alert.
+Eventuali errori HTTP (404, 500) vengono intercettati e mostrati all’user tramite un componente di alert.
 
 **State management (opzionale)**
 
@@ -88,9 +88,9 @@ In Angular il codice TS viene “transpilato” in JS; i browser eseguono solo J
 La differenza tra TS e JS è critica per la manutenzione di progetti di media-grandezza.
 
 ## Scenari e casi d’uso
-### 1. Navigazione catalogo (utente anonimo)
+### 1. Navigazione catalogo (user anonimo)
 
-**Obiettivo:** l’utente vede la lista prodotti.
+**Obiettivo:** l’user vede la lista prodotti.
 
 > Flusso:
 
@@ -99,7 +99,7 @@ La differenza tra TS e JS è critica per la manutenzione di progetti di media-gr
 - Ricezione JSON → assegnazione a this.prodotti.
 - *ngFor="let p of prodotti" genera un card per ogni prodotto.
 
-L’utente clicca “Dettagli”.
+L’user clicca “Dettagli”.
 
 ### 2. Visualizzazione dettaglio prodotto
 
@@ -113,7 +113,7 @@ L’utente clicca “Dettagli”.
 
 ### 3. Ricerca e filtraggio
 
-**Obiettivo:** utente filtra per categoria o range di prezzo.
+**Obiettivo:** user filtra per categoria o range di prezzo.
 
 > Implementazione:
 
@@ -143,7 +143,7 @@ Decoupling: il frontend non dipende da implementazioni .NET, comunica solo via H
 
 Produttività: .NET Core e Angular CLI generano template di base con scaffolding.
 
-Esperienza utente: SPA client-side reattiva, reload minimizzato.
+Esperienza user: SPA client-side reattiva, reload minimizzato.
 
 Tipizzazione end-to-end: definendo interfacce sia in C# (DTO) sia in TS (model), si riduce il rischio di mismatch dei dati.
 
@@ -603,6 +603,19 @@ DELETE rimuove il prodotto:
 DELETE /api/products/{id}
 ```
 Usando uno di questi strumenti potrai verificare subito il funzionamento dei tuoi endpoint CRUD. Buon testing
+
+# Aggiunta entita User e Purchase
+Dentro la folder Models creo il modello user.cs;(Modelli sempre al singolare)
+ public class user
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Indirizzo { get; set; }
+    }
+
+ Creo il Service di user.fatto su file direttamente
+
+
 
 # Frontend: Angular
 Genera il progetto
