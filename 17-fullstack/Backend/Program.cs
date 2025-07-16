@@ -15,6 +15,7 @@ builder.Services.AddControllers();
 // in pratica vado a simulare un archivio di dati dato che non posso farlo nel program principale lo faccio in una folders servizi
 builder.Services.AddSingleton<ProductService>();
 builder.Services.AddSingleton<UserService>();
+builder.Services.AddSingleton<PurchaseService>();
 
 // 3. Configura CORS per permettere tutte le origini (sviluppo locale)
 // CORS (Cross-Origin Resource Sharing) è una politica di sicurezza che permette o blocca le richieste tra domini diversi
