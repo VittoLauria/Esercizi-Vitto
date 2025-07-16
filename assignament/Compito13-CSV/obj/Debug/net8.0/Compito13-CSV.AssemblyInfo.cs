@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Compito13-CSV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+242fdf6e8a6c404542e15156ca4f5a27e5286953")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98bb298bc150cf4dbe85bf25166c3835ad7ac874")]
 [assembly: System.Reflection.AssemblyProductAttribute("Compito13-CSV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Compito13-CSV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
