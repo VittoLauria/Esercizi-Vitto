@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("13-Metodi-File")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+833dcf85764a4f4694de0ba8d5472608d370785e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdfba2e6fa965187445a9b4e04bd8d53ef6a996a")]
 [assembly: System.Reflection.AssemblyProductAttribute("13-Metodi-File")]
 [assembly: System.Reflection.AssemblyTitleAttribute("13-Metodi-File")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
