@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dizionario-squadre")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd4314af3ac5d003f62f114e6434b591df847da2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+833dcf85764a4f4694de0ba8d5472608d370785e")]
 [assembly: System.Reflection.AssemblyProductAttribute("dizionario-squadre")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dizionario-squadre")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
