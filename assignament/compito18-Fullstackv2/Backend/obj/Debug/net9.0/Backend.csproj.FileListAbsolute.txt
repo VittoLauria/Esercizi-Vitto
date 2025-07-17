@@ -30,3 +30,4 @@
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/obj/Debug/net9.0/ref/Backend.dll
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/bin/Debug/net9.0/Data/Album.Json
 /Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/bin/Debug/net9.0/Data/Utenti.Json
+/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito18-Fullstackv2/Backend/bin/Debug/net9.0/Data/Acquisto.Json

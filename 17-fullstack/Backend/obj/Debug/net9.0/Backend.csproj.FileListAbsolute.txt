@@ -8,7 +8,6 @@
 /Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/obj/Debug/net9.0/Backend.sourcelink.json
 /Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/bin/Debug/net9.0/appsettings.Development.json
 /Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/bin/Debug/net9.0/appsettings.json
-/Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/bin/Debug/net9.0/Properties copy/launchSettings.json
 /Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/bin/Debug/net9.0/Backend.staticwebassets.endpoints.json
 /Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/bin/Debug/net9.0/Backend
 /Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/bin/Debug/net9.0/Backend.deps.json

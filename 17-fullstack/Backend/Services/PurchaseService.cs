@@ -5,12 +5,18 @@ namespace Backend.Services
     public class PurchaseService
     {
         // Lista privata di acquisti (in memoria)
-        private readonly List<Purchase> _purchases = new();
+        private readonly List<Purchase> _purchases = new List<Purchase>();
 
         // Restituisce tutti gli acquisti
         public List<Purchase> GetAll()
         {
-            return new List<Purchase>(_purchases); // restituisce una copia della lista
+            List<Purchase> purchaseList = new List<Purchase>();
+            foreach (var purchase in _purchases)
+            {
+                purchaseList.Add(purchase);
+            }
+
+            return purchaseList;// restituisce una copia della lista
         }
 
         // Restituisce un acquisto specifico per ID

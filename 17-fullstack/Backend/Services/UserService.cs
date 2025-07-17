@@ -6,8 +6,8 @@ namespace Backend.Services
     {
         private readonly List<User> _users = new()
         {
-            new User { Id = 1, Nome = "User uno", Indirizzo = "Via roma 1" },
-            new User { Id = 2, Nome = "User due", Indirizzo = "Via milano 2" },
+            new User { Id = 1, Name = "User uno", Indirizzo = "Via roma 1" },
+            new User { Id = 2, Name = "User due", Indirizzo = "Via milano 2" },
         };
         private int _nextId = 3;
         public List<User> GetAll()
@@ -91,7 +91,7 @@ namespace Backend.Services
                 return false;
             }
 
-            existing.Nome = updatedUser.Nome;
+            existing.Name = updatedUser.Name;
             existing.Indirizzo = updatedUser.Indirizzo;
 
             return true;

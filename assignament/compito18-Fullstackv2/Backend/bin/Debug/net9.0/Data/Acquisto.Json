@@ -1,0 +1,51 @@
+[
+  {
+    "Id": 1,
+    "UtenteId": 1,
+    "AlbumId": 3,
+    "Canzoni": [],
+    "DataAcquisto": "2025-07-17T14:30:00"
+  },
+  {
+    "Id": 2,
+    "UtenteId": 1,
+    "AlbumId": 6,
+    "Canzoni": [],
+    "DataAcquisto": "2025-07-17T14:30:00"
+  },
+  {
+    "Id": 3,
+    "UtenteId": 3,
+    "AlbumId": 1,
+    "Canzoni": [],
+    "DataAcquisto": "2025-07-17T14:30:00"
+  },
+  {
+    "Id": 4,
+    "UtenteId": 1,
+    "AlbumId": 2,
+    "Canzoni": [],
+    "DataAcquisto": "2025-07-17T00:00:00"
+  },
+  {
+    "Id": 5,
+    "UtenteId": 1,
+    "AlbumId": 2,
+    "Canzoni": [],
+    "DataAcquisto": "2025-07-17T00:00:00"
+  },
+  {
+    "Id": 6,
+    "UtenteId": 3,
+    "AlbumId": 6,
+    "Canzoni": [],
+    "DataAcquisto": "2025-07-17T14:30:00"
+  },
+  {
+    "Id": 7,
+    "UtenteId": 0,
+    "AlbumId": 0,
+    "Canzoni": [],
+    "DataAcquisto": "2025-07-17T14:30:00"
+  }
+]

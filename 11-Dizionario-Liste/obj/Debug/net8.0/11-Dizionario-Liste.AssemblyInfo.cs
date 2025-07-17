@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("11-Dizionario-Liste")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26320fabcbd8238a3fc48605b658ad46b39d0b52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aeef81c3c351a60e370bd8e0f43d256a796f1b6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("11-Dizionario-Liste")]
 [assembly: System.Reflection.AssemblyTitleAttribute("11-Dizionario-Liste")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
