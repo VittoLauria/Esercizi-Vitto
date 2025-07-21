@@ -46,6 +46,8 @@ namespace Backend.Services
             newPurchase.Id = nextId;
             newPurchase.PurchaseDate = DateTime.Now;
             _purchases.Add(newPurchase);
+            LoggerHelper.Log($"aggiunto purchase: ID: {newPurchase.Id} {newPurchase.UserId})");
+            Save();
             return newPurchase;
         }
 
@@ -55,8 +57,16 @@ namespace Backend.Services
             var purchase = GetById(id);
             if (purchase == null)
                 return false;
-
-            return _purchases.Remove(purchase);
+            bool removed = _purchases.Remove(purchase);
+            if (removed)
+            {
+                LoggerHelper.Log($"Cancellato prodotto Id: {id}");
+            }
+            else
+            {
+                LoggerHelper.Log($"Prodotto non cancellato Id: {id}");
+            }
+             return _purchases.Remove(purchase);
         }
 
         // Aggiorna un acquisto esistente
@@ -70,7 +80,8 @@ namespace Backend.Services
             existing.ProductId = updatedPurchase.ProductId;
             existing.Quantity = updatedPurchase.Quantity;
             existing.PurchaseDate = updatedPurchase.PurchaseDate;
-
+             LoggerHelper.Log($"Aggiornato purchase : {id}");
+            Save();
             return true;
         }
     }

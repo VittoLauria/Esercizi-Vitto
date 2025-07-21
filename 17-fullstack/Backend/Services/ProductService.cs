@@ -83,6 +83,8 @@ namespace Backend.Services
 
             newProduct.Id = nextId; // assegno il prossimo ID al nuovo prodotto
             _products.Add(newProduct); // aggiungo il nuovo prodotto alla lista dei prodotti
+            LoggerHelper.Log($"aggiunto prodotto: ID: {newProduct.Id} ({newProduct.Name})");
+            Save();
             return newProduct; // restituisco il nuovo prodotto aggiunto
         }
 
@@ -109,7 +111,18 @@ namespace Backend.Services
 
             // Rimuovo e ritorno il risultato della rimozione
             bool removed = _products.Remove(existing); // rimuovo il prodotto esistente dalla lista dei prodotti
+            if (removed)
+            {
+                LoggerHelper.Log($"Cancellato prodotto Id: {id}");
+            }
+            else
+            {
+            LoggerHelper.Log($"Prodotto non cancellato Id: {id}");
+           }
+            Save();
+
             return removed; // restituisco true se il prodotto è stato rimosso con successo, altrimenti false
+            
         }
 
         // metodo per modificare un prodotto specifico in base all'ID
@@ -136,6 +149,8 @@ namespace Backend.Services
             // Sovrascrivo i campi desiderati
             existing.Name = updatedProduct.Name; // aggiorno il nome del prodotto esistente con quello del prodotto aggiornato
             existing.Price = updatedProduct.Price; // aggiorno il prezzo del prodotto esistente con quello del prodotto aggiornato
+            LoggerHelper.Log($"Aggiornato prodotto : {id}");
+            Save();
             return true; // restituisco true se il prodotto è stato aggiornato con successo
         }
 

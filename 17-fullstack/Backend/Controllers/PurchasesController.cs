@@ -1,10 +1,9 @@
-using System.Reflection.Metadata.Ecma335;
 using Backend.Models;
 using Backend.Services;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
-[Route("api/purchase")]
+[Route("api/[controller]")]
 
 public class PurchasesController : ControllerBase
 {

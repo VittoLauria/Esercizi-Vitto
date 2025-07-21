@@ -28,3 +28,5 @@
 /Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/obj/Debug/net9.0/Backend.pdb
 /Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/obj/Debug/net9.0/Backend.genruntimeconfig.cache
 /Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/obj/Debug/net9.0/ref/Backend.dll
+/Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/bin/Debug/net9.0/Data/users.json
+/Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/bin/Debug/net9.0/Data/products.json

@@ -58,6 +58,9 @@ namespace Backend.Services
 
             newUser.Id = nextId;
             _users.Add(newUser);
+            LoggerHelper.Log($"aggiunto utente: ID: {newUser.Id} ({newUser.Name})");
+            // invoco il metodo Save
+            Save();
             return newUser;
         }
 
@@ -79,6 +82,15 @@ namespace Backend.Services
             }
 
             bool removed = _users.Remove(existing);
+            if (removed)
+            {
+                LoggerHelper.Log($"Cancellato utente Id: {id}");
+            }
+            else
+            {
+            LoggerHelper.Log($"utente non cancellato Id: {id}");
+           }
+            Save();
             return removed;
         }
 
@@ -101,7 +113,8 @@ namespace Backend.Services
 
             existing.Name = updatedUser.Name;
             existing.Indirizzo = updatedUser.Indirizzo;
-
+            LoggerHelper.Log($"Aggiornato utente : {id}");
+            Save();
             return true;
         }
     }

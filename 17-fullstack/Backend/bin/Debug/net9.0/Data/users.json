@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Name": "Vittorio L.",
+    "Indirizzo": "Via Roma 123, Milano, Italia"
+  },
+  {
+    "Id": 3,
+    "Name": "Vittorio L.",
+    "Indirizzo": "Via Roma 123, Milano, Italia"
+  },
+  {
+    "Id": 4,
+    "Name": "Luca Pezzi",
+    "Indirizzo": "Via milano 3, Roma, Italia"
+  },
+  {
+    "Id": 5,
+    "Name": "Alessio T.",
+    "Indirizzo": "Via Puggia 3, Genova, Italia"
+  }
+]
