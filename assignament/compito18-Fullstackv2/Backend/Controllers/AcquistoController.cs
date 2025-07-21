@@ -17,10 +17,8 @@ namespace Backend.Controllers
         {
                 _albumService = albumService ?? throw new ArgumentNullException(nameof(albumService));
                 _acquistoService = acquistoService ?? throw new ArgumentNullException(nameof(acquistoService));
-                _utenteService = utenteService ?? throw new ArgumentNullException(nameof(utenteService));
-            
+                _utenteService = utenteService ?? throw new ArgumentNullException(nameof(utenteService));    
         }
-
 
         [HttpGet]
         public ActionResult<List<AcquistoDTO>> GetAllAcquisti()
@@ -57,7 +55,7 @@ namespace Backend.Controllers
                     NomeUtente = utente != null ? utente.Nome : "Sconosciuto",
                     TitoloAlbum = album != null ? album.Titolo : "Sconosciuto",
                     Canzoni = album != null ? album.Canzoni : new List<Canzone>(),
-                    DataAcquisto = acquisto.DataAcquisto
+                    DataAcquisto = acquisto.DataAcquisto.ToString("dd/MM/yyyy")
                 };
                 // Aggiungo il DTO alla lista dei risultati
                 result.Add(dto);

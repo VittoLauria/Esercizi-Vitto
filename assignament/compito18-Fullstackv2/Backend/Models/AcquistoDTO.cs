@@ -6,6 +6,6 @@ namespace Backend.Models
         public string NomeUtente { get; set; }
         public string TitoloAlbum { get; set; }
         public List<Canzone> Canzoni { get; set; } = new List<Canzone>();
-        public DateTime DataAcquisto { get; set; }
+        public string DataAcquisto { get; set; }
     }
 }

@@ -1,5 +1,5 @@
 using Backend.Models;
-
+using Backend.Utils;
 namespace Backend.Services
 {
     public class UserService
@@ -9,6 +9,14 @@ namespace Backend.Services
             new User { Id = 1, Name = "User uno", Indirizzo = "Via roma 1" },
             new User { Id = 2, Name = "User due", Indirizzo = "Via milano 2" },
         };
+        public UserService()
+        {
+            _users = JsonFileHelper.LoadList<User>("Data/Users.json");
+        }
+        public void Save()
+        {
+            JsonFileHelper.SaveList<User>("Data/users.json", _users);
+        }
         private int _nextId = 3;
         public List<User> GetAll()
         {

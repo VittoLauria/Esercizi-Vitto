@@ -1,4 +1,5 @@
 using Backend.Models;
+using Backend.Utils;
 
 namespace Backend.Services
 {
@@ -6,7 +7,14 @@ namespace Backend.Services
     {
         // Lista privata di acquisti (in memoria)
         private readonly List<Purchase> _purchases = new List<Purchase>();
-
+        public PurchaseService()
+        {
+            _purchases = JsonFileHelper.LoadList<Purchase>("Data/Purchase.json");
+        }
+        public void Save()
+        {
+            JsonFileHelper.SaveList<Purchase>("Data/purchases.json", _purchases);
+        }
         // Restituisce tutti gli acquisti
         public List<Purchase> GetAll()
         {

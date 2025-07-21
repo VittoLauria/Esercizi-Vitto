@@ -4,7 +4,7 @@ using Backend.Services;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/purchase")]
 
 public class PurchasesController : ControllerBase
 {
@@ -65,6 +65,7 @@ public class PurchasesController : ControllerBase
             result.Add(dto);
         }
         return Ok(result);
+        
     }
 }
 

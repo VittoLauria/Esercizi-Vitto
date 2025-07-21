@@ -1,4 +1,5 @@
 using Backend.Models; // Importa il namespace Backend.Models per accedere ai modelli definiti in esso
+using Backend.Utils;
 namespace Backend.Services
 {
     public class ProductService
@@ -13,7 +14,14 @@ namespace Backend.Services
             new Product { Id = 1, Name = "Penna", Price = 1.20M },
             new Product { Id = 2, Name = "Quaderno", Price = 2.50M }
         };
-
+        public ProductService()
+        {
+            _products = JsonFileHelper.LoadList<Product>("Data/products.json");
+        }
+        public void Save()
+        {
+            JsonFileHelper.SaveList<Product>("Data/products.json", _products);
+        }
         // Restituisce tutti i prodotti dato che erano privati _products li rendo pubblici
         // public List<Product> GetAll() => _products; // lambda expression per restituire la lista dei prodotti
         // ciclo in modo da restituire tutti i prodotti
