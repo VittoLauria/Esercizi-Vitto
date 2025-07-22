@@ -59,29 +59,20 @@ namespace Backend.Services
         // CREA (Create)
         public Product Add(Product newProduct)
         {
-            // Calcola il prossimo ID
-            int nextId; // dichiaro una variabile per il prossimo ID
-            // Se la lista dei prodotti non è vuota, calcolo il massimo ID esistente
-            // altrimenti imposto il prossimo ID a 1
-            if (_products.Count > 0)
+            // Uso ValidationHelper per validare i campi del prodotto
+            if (newProduct == null)
             {
-                // Trovo il massimo ID con un semplice ciclo
-                int maxId = 0; // imposto il massimo ID a 0
-                foreach (var p in _products)
-                {
-                    if (p.Id > maxId) // Se l id è maggiore del massimo ID trovato
-                    {
-                        maxId = p.Id; // imposto il massimo ID a quello del prodotto corrente
-                    }
-                }
-                nextId = maxId + 1; // imposto il prossimo ID come il massimo ID trovato + 1
+                throw new ArgumentNullException(nameof(newProduct), "Il prodotto non puo essere null");
             }
-            else
+            if (!ValidationHelper.IsNotNullOrWhiteSpace(newProduct.Name))
             {
-                nextId = 1; // Se la lista è vuota, imposto il prossimo ID a 1
+                throw new ArgumentNullException(nameof(newProduct.Name), "Il nome del prodotto non puo essere vuoto");
             }
-
-            newProduct.Id = nextId; // assegno il prossimo ID al nuovo prodotto
+             if (!ValidationHelper.IsPostitiveDecimal(newProduct.Price))
+            {
+                throw new ArgumentNullException(nameof(newProduct.Price), "Il prezzo del prodotto deve essere positivo");
+            }
+            newProduct.Id = IdGenerator.GetNextId(_products); // assegno il prossimo ID al nuovo prodotto
             _products.Add(newProduct); // aggiungo il nuovo prodotto alla lista dei prodotti
             LoggerHelper.Log($"aggiunto prodotto: ID: {newProduct.Id} ({newProduct.Name})");
             Save();
@@ -129,6 +120,7 @@ namespace Backend.Services
         // AGGIORNA (Update)
         public bool Update(int id, Product updatedProduct)
         {
+             
             // Cerco il prodotto manualmente
             Product? existing = null; // dichiaro una variabile per il prodotto esistente
             foreach (var p in _products)
@@ -145,7 +137,18 @@ namespace Backend.Services
                 // Non trovato
                 return false; // se il prodotto non è stato trovato, restituisco false
             }
-
+            if (updatedProduct == null)
+            {
+                throw new ArgumentNullException(nameof(updatedProduct), "Il prodotto non puo essere null");
+            }
+            if (!ValidationHelper.IsNotNullOrWhiteSpace(updatedProduct.Name))
+            {
+                throw new ArgumentNullException(nameof(updatedProduct.Name), "Il nome del prodotto non puo essere vuoto");
+            }
+             if (!ValidationHelper.IsPostitiveDecimal(updatedProduct.Price))
+            {
+                throw new ArgumentNullException(nameof(updatedProduct.Price), "Il prezzo del prodotto deve essere positivo");
+            }
             // Sovrascrivo i campi desiderati
             existing.Name = updatedProduct.Name; // aggiorno il nome del prodotto esistente con quello del prodotto aggiornato
             existing.Price = updatedProduct.Price; // aggiorno il prezzo del prodotto esistente con quello del prodotto aggiornato

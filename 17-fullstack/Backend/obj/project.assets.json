@@ -115,23 +115,27 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.AspNetCore.OpenApi >= 9.0.5",
-      "newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
-    "/Users/vittolauri19/.nuget/packages/": {}
+    "C:\\Users\\devops3\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/Backend.csproj",
+      "projectUniqueName": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\17-fullstack\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/Backend.csproj",
-      "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/17-fullstack/Backend/obj/",
+      "projectPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\17-fullstack\\Backend\\Backend.csproj",
+      "packagesPath": "C:\\Users\\devops3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\17-fullstack\\Backend\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\devops3\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -165,7 +169,7 @@
             "target": "Package",
             "version": "[9.0.5, )"
           },
-          "newtonsoft.Json": {
+          "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
           }
@@ -189,7 +193,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

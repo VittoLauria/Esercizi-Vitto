@@ -17,7 +17,7 @@ namespace Backend.Services
         {
             JsonFileHelper.SaveList<User>("Data/users.json", _users);
         }
-        private int _nextId = 3;
+        
         public List<User> GetAll()
         {
            
@@ -38,25 +38,16 @@ namespace Backend.Services
 
         public User Add(User newUser)
         {
-            int nextId;
-            if (_users.Count > 0)
+           if (newUser == null)
             {
-                int maxId = 0;
-                foreach (var u in _users)
-                {
-                    if (u.Id > maxId)
-                    {
-                        maxId = u.Id;
-                    }
-                }
-                nextId = maxId + 1;
+                throw new ArgumentNullException(nameof(newUser), "L'Utente non puo essere null");
             }
-            else
+            if (!ValidationHelper.IsNotNullOrWhiteSpace(newUser.Name))
             {
-                nextId = 1;
+                throw new ArgumentNullException(nameof(newUser.Name), "Il nome del utente non puo essere vuoto");
             }
-
-            newUser.Id = nextId;
+           
+            newUser.Id = IdGenerator.GetNextId(_users);
             _users.Add(newUser);
             LoggerHelper.Log($"aggiunto utente: ID: {newUser.Id} ({newUser.Name})");
             // invoco il metodo Save
@@ -96,6 +87,15 @@ namespace Backend.Services
 
         public bool Update(int id, User updatedUser)
         {
+            if (updatedUser == null)
+            {
+                throw new ArgumentNullException(nameof(updatedUser), "L'utente non puo essere null");
+            }
+            if (!ValidationHelper.IsNotNullOrWhiteSpace(updatedUser.Name))
+            {
+                throw new ArgumentNullException(nameof(updatedUser.Name), "Il nome del utente non puo essere vuoto");
+            }
+            
             User? existing = null;
             foreach (var u in _users)
             {

@@ -3,3 +3,8 @@
 [2025-07-21 17:13:43] Aggiornato utente : 5
 [2025-07-21 17:17:37] aggiunto prodotto: ID: 1 (Penna)
 [2025-07-21 17:17:57] aggiunto prodotto: ID: 2 (Quaderno)
+[2025-07-22 15:13:21] aggiunto prodotto: ID: 3 (Astuccio)
+[2025-07-22 15:13:43] Cancellato prodotto Id: 3
+[2025-07-22 15:14:08] Cancellato utente Id: 3
+[2025-07-22 15:15:16] aggiunto utente: ID: 6 (Francesco M.)
+[2025-07-22 15:16:31] Aggiornato utente : 4
