@@ -2,7 +2,7 @@ using Backend.Services; // Importa il namespace Backend.Services per accedere ai
 using Microsoft.AspNetCore.Builder; // Importa il namespace Microsoft.AspNetCore.Builder per configurare l'applicazione ASP.NET Core
 using Microsoft.Extensions.DependencyInjection; // Importa il namespace Microsoft.Extensions.DependencyInjection per configurare i servizi dell'applicazione
 using Microsoft.Extensions.Hosting; // Importa il namespace Microsoft.Extensions.Hosting per configurare l'hosting dell'applicazione
-
+using Microsoft.OpenApi.Models;
 // CREAZIONE DELL'APPLICAZIONE
 
 var builder = WebApplication.CreateBuilder(args); // Crea un nuovo builder per l'applicazione ASP.NET Core
@@ -19,6 +19,14 @@ builder.Services.AddSingleton<AcquistoService>();
 
 // 3. Configura CORS per permettere tutte le origini (sviluppo locale)
 // CORS (Cross-Origin Resource Sharing) è una politica di sicurezza che permette o blocca le richieste tra domini diversi
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "MiniApp API",
+        Version = "v1"
+    });
+});
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -32,6 +40,12 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build(); // Costruisce l'applicazione ASP.NET Core
 
+
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MiniApp API V1");
+});
 // CONFIGURAZIONE DELL'APPLICAZIONE
 
 // il middleware è un componente che gestisce una funzionalita' specifica dell'applicazione
