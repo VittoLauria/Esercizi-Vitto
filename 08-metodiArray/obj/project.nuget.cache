@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "urb/YkOnRxs=",
+  "dgSpecHash": "v/dFA29J/tA=",
   "success": true,
   "projectFilePath": "/Users/vittolauri19/Documents/Esercizi-Vitto/08-metodiArray/08-metodiArray.csproj",
-  "expectedPackageFiles": [
-    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
-    "/Users/vittolauri19/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
-    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.16/microsoft.netcore.app.host.osx-arm64.8.0.16.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

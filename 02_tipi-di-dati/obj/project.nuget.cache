@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8vAAn+5faA8=",
+  "dgSpecHash": "B9EWkb2cIZY=",
   "success": true,
   "projectFilePath": "/Users/vittolauri19/Documents/Esercizi-Vitto/02_tipi-di-dati/02_tipi-di-dati.csproj",
-  "expectedPackageFiles": [
-    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
-    "/Users/vittolauri19/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
-    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.16/microsoft.netcore.app.host.osx-arm64.8.0.16.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

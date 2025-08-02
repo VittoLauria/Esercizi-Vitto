@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JaQJdSJHF7A=",
+  "dgSpecHash": "nua43ilzNyY=",
   "success": true,
   "projectFilePath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12.2/compito12.2.csproj",
-  "expectedPackageFiles": [
-    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
-    "/Users/vittolauri19/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
-    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.16/microsoft.netcore.app.host.osx-arm64.8.0.16.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

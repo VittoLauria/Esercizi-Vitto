@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<<< HEAD:es-casa/dizionario-squadre/obj/dizionario-squadre.csproj.nuget.dgspec.json
     "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/dizionario-squadre.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/dizionario-squadre.csproj",
         "packagesPath": "/Users/vittolauri19/.nuget/packages/",
         "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/",
-========
-    "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1-calcolatrice\\compito1.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1-calcolatrice\\compito1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1-calcolatrice\\compito1.csproj",
-        "projectName": "compito1",
-        "projectPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1-calcolatrice\\compito1.csproj",
-        "packagesPath": "C:\\Users\\devops3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito1-calcolatrice\\obj\\",
->>>>>>>> 57312d935bdb0ab3d309c338a583eb5e9be68481:assignament/compito1-calcolatrice/obj/compito1.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"
@@ -73,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

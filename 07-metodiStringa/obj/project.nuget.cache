@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ppx79X8B0Ms=",
+  "dgSpecHash": "E/iacvbagQo=",
   "success": true,
   "projectFilePath": "/Users/vittolauri19/Documents/Esercizi-Vitto/07-metodiStringa/07-metodiStringa.csproj",
-  "expectedPackageFiles": [
-    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
-    "/Users/vittolauri19/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
-    "/Users/vittolauri19/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.16/microsoft.netcore.app.host.osx-arm64.8.0.16.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
