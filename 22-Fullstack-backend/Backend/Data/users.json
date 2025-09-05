@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "Name": "User Uno",
+    "Address": {
+      "Citta": "Roma",
+      "Via": "Via Roma 1",
+      "CAP": "00100"
+    }
+  },
+  {
+    "Id": 2,
+    "Name": "User Due",
+    "Address": {
+      "Citta": "Milano",
+      "Via": "Corso Italia 10",
+      "CAP": "20100"
+    }
+  },
+  {
+    "Id": 3,
+    "Name": "user 3",
+    "Address": {
+      "Citta": "Genova",
+      "Via": "xsdfsfds",
+      "CAP": "16153"
+    }
+  }
+]

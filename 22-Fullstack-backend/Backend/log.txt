@@ -1,0 +1,12 @@
+[2025-07-21 17:03:20] Aggiunto prodotto ID: 3 (Penna)
+[2025-07-22 15:11:38] Aggiunto prodotto ID: 4 (Penna)
+[2025-07-22 15:12:45] Cancellato prodotto ID: 4
+[2025-07-22 15:13:39] Aggiunto prodotto ID: 4 (Penna)
+[2025-07-22 15:14:08] Cancellato prodotto ID: 4
+[2025-07-30 17:08:46] Aggiunto prodotto ID: 4 (PennaRELLO)
+[2025-07-30 17:08:51] Cancellato prodotto ID: 4
+[2025-07-30 17:09:00] Aggiornato prodotto ID: 3 con nuovo nome: Penna STILOGRAFICA
+[2025-07-30 17:09:11] Aggiunta categoria ID: 3 (CARTONCINO)
+[2025-07-30 17:28:21] Aggiunto utente ID: 3 (user 3)
+[2025-07-31 11:30:54] Cancellato prodotto ID: 1
+[2025-07-31 16:33:19] Aggiornato prodotto ID: 3 con nuovo nome: Penna

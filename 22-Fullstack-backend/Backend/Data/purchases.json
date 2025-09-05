@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "UserId": 1,
+    "ProductId": 2,
+    "Quantity": 3,
+    "PurchaseDate": "2025-07-16T13:05:00"
+  },
+  {
+    "Id": 2,
+    "UserId": 2,
+    "ProductId": 1,
+    "Quantity": 1,
+    "PurchaseDate": "2025-07-16T14:00:00"
+  },
+  {
+    "Id": 3,
+    "UserId": 1,
+    "ProductId": 2,
+    "Quantity": 3,
+    "PurchaseDate": "2025-07-21T15:15:19.4532141Z"
+  }
+]
