@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
 import { Category } from '../../models/category.model';
 import { CategoryService } from '../../services/category';
-
+import { ConfirmDialogComponent, ConfirmDialogData } from './../confirm-dialog';
 
 @Component({
   selector: 'app-categories-list',
@@ -111,7 +111,7 @@ export class CategoriesList implements OnInit {
       message: 'Sei sicuro di voler eliminare questa categoria?',
       confirmText: 'Elimina',
       cancelText: 'Annulla'
-    },
+    },as ConfirmDialogData,
     disableClose: true
   });
 

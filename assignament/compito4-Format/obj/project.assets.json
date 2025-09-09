@@ -8,23 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\devops3\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/vittolauri19/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito4-Format\\compito4-Format.csproj",
+      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito4-Format/compito4-Format.csproj",
       "projectName": "compito4-Format",
-      "projectPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito4-Format\\compito4-Format.csproj",
-      "packagesPath": "C:\\Users\\devops3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito4-Format\\obj\\",
+      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito4-Format/compito4-Format.csproj",
+      "packagesPath": "/Users/vittolauri19/.nuget/packages/",
+      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito4-Format/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\devops3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -69,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

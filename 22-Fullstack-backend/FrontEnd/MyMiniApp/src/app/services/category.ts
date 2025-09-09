@@ -5,7 +5,7 @@ import { Category } from '../models/category.model';
 
 @Injectable({ providedIn: 'root' })
 export class CategoryService {
-  private apiUrl = 'http://localhost:5296/api/category'; // Modificare porta se diversa
+  private apiUrl = 'http://localhost:5296/api/categories'; // Modificare porta se diversa
 
   constructor(private http: HttpClient) {}
 
