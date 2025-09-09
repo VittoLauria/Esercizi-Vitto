@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/11-Dizionario-Liste/11-Dizionario-Liste.csproj": {}
+    "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\11-Dizionario-Liste\\11-Dizionario-Liste.csproj": {}
   },
   "projects": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/11-Dizionario-Liste/11-Dizionario-Liste.csproj": {
+    "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\11-Dizionario-Liste\\11-Dizionario-Liste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/11-Dizionario-Liste/11-Dizionario-Liste.csproj",
+        "projectUniqueName": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\11-Dizionario-Liste\\11-Dizionario-Liste.csproj",
         "projectName": "11-Dizionario-Liste",
-        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/11-Dizionario-Liste/11-Dizionario-Liste.csproj",
-        "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/11-Dizionario-Liste/obj/",
+        "projectPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\11-Dizionario-Liste\\11-Dizionario-Liste.csproj",
+        "packagesPath": "C:\\Users\\devops3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\11-Dizionario-Liste\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\devops3\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -59,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

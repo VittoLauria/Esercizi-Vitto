@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #4674fd;
+    margin: 0;
+}
+
+table {
+    withd: 100%;
+    border-collpase: collapse;
+    margin: 1em 0;
+    background: #fff;
+}
+
+th,
+td {
+    border: 1px solid #e3e3e3;
+    padding: 0.5em 1em;
+    text-aling: left;
+}
+
+th {
+    background: #795353
+}
+
+button,
+input,
+select {
+    margin: 0.25wm;
+    padding: 0.25em 0.5em;
+}

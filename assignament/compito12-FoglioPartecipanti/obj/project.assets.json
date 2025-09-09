@@ -8,19 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/vittolauri19/.nuget/packages/": {}
+    "C:\\Users\\devops3\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12-FoglioPartecipanti/compito12-FoglioPartecipanti.csproj",
+      "projectUniqueName": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito12-FoglioPartecipanti\\compito12-FoglioPartecipanti.csproj",
       "projectName": "compito12-FoglioPartecipanti",
-      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12-FoglioPartecipanti/compito12-FoglioPartecipanti.csproj",
-      "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12-FoglioPartecipanti/obj/",
+      "projectPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito12-FoglioPartecipanti\\compito12-FoglioPartecipanti.csproj",
+      "packagesPath": "C:\\Users\\devops3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\assignament\\compito12-FoglioPartecipanti\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\devops3\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -65,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
