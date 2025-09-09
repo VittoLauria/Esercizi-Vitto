@@ -104,19 +104,18 @@ export class CategoriesList implements OnInit {
   }
 
   async delete(id: number) {
-  const dialogRef = this.dialog.open(Component, {
+  const dialogRef = this.dialog.open(ConfirmDialogComponent, {
     width: '360px',
     data: {
       title: 'Elimina categoria',
       message: 'Sei sicuro di voler eliminare questa categoria?',
       confirmText: 'Elimina',
       cancelText: 'Annulla'
-    },as ConfirmDialogData,
+    } as ConfirmDialogData,
     disableClose: true
   });
 
   const confirmed: boolean | undefined = await firstValueFrom(dialogRef.afterClosed());
   if (!confirmed) return;
-
 }
 }

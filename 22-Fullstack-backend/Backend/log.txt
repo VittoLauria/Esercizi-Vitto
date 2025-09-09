@@ -10,3 +10,4 @@
 [2025-07-30 17:28:21] Aggiunto utente ID: 3 (user 3)
 [2025-07-31 11:30:54] Cancellato prodotto ID: 1
 [2025-07-31 16:33:19] Aggiornato prodotto ID: 3 con nuovo nome: Penna
+[2025-09-09 23:47:34] Aggiunto prodotto ID: 4 (Astuccio)

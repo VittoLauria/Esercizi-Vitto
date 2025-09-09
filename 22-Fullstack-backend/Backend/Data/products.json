@@ -10,5 +10,11 @@
     "Name": "Penna",
     "Price": 1.2,
     "CategoryId": 1
+  },
+  {
+    "Id": 4,
+    "Name": "Astuccio",
+    "Price": 7.99,
+    "CategoryId": 1
   }
 ]
