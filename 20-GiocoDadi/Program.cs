@@ -3,7 +3,7 @@
     static void Main()
     {
         // creo un oggetto dado con 6 facce
-        var d6 = new Dado();
+        var d6 = new Dado(6);
         Console.WriteLine(d6.ToString());
         Console.WriteLine(d6.Lancia());
         // rappresento il dado con il ToString()
