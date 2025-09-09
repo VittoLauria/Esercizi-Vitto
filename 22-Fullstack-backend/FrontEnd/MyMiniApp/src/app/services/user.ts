@@ -5,7 +5,7 @@ import { User } from '../models/user.model';
 
 @Injectable({ providedIn: 'root' })
 export class UserService {
-  private apiUrl = 'http://localhost:5296/api/user'; // Modificare porta se diversa
+  private apiUrl = 'http://localhost:5296/api/users'; // Modificare porta se diversa
 
   constructor(private http: HttpClient) {}
 

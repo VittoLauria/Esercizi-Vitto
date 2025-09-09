@@ -19,7 +19,7 @@ import { UserService } from '../../services/user';
       </tr>
       <tr *ngFor="let u of users">
         <td>{{u.name}}</td>
-        <td>{{u.address}}</td>
+        <td>{{u.address.citta}}{{u.address.via}}{{u.address.cap}}</td>
         <td>
           <button [routerLink]="['/users', u.id]">Modifica</button>
           <button (click)="delete(u.id)">Elimina</button>
