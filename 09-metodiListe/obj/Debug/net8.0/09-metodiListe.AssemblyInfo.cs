@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("09-metodiListe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d619797dda79bd283f3d5f237dcf008821c8aa03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c38e6cd303f5430d77801d3f8b354840d4d46d06")]
 [assembly: System.Reflection.AssemblyProductAttribute("09-metodiListe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("09-metodiListe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
