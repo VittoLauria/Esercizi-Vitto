@@ -2,10 +2,10 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { Category } from '../models/category.model';
-import { Product } from '../models/product.model';
-import { CategoryService } from '../services/category';
-import { ProductService } from '../services/product';
+import { Category } from '../../models/category.model';
+import { Product } from '../../models/product.model';
+import { CategoryService } from '../../services/category';
+import { ProductService } from '../../services/product';
 
 @Component({
   selector: 'app-product-form',

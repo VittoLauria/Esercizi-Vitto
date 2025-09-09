@@ -4,7 +4,7 @@ export interface Address {
     cap: string;
 }
 export interface User {
-    id: string;
+    id: number;
     name: string;
-    address: string;
+    address: Address;
 }

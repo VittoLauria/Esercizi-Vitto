@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Category, CategoryDTO } from '../models/category.model';
+import { Category } from '../models/category.model';
 
 @Injectable({ providedIn: 'root' })
 export class CategoryService {
@@ -9,12 +9,12 @@ export class CategoryService {
 
   constructor(private http: HttpClient) {}
 
-  getAll(): Observable<CategoryDTO[]> {
-    return this.http.get<CategoryDTO[]>(this.apiUrl);
+  getAll(): Observable<Category[]> {
+    return this.http.get<Category[]>(this.apiUrl);
   }
 
-  get(id: number): Observable<CategoryDTO> {
-    return this.http.get<CategoryDTO>(`${this.apiUrl}/${id}`);
+  get(id: number): Observable<Category> {
+    return this.http.get<Category>(`${this.apiUrl}/${id}`);
   }
 
   add(category: Category): Observable<Category> {

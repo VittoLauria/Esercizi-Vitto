@@ -1,12 +1,12 @@
 import { Routes } from '@angular/router';
-import {CategoriesList} from './categories-list/categories-list';
-import { CategoryForm } from './category-form/category-form';
-import { ProductsList } from './products-list/products-list';
-import { ProductForm } from './product-form/product-form';
-import { PurchasesList } from './purchases-list/purchases-list';
-import { PurchaseForm } from './purchase-form/purchase-form';
-import { UsersList } from './users-list/users-list';
-import { UserForm } from './user-form/user-form';
+import { CategoriesList } from './pages/categories-list/categories-list';
+import { CategoryForm } from './pages/category-form/category-form';
+import { ProductsList } from './pages/products-list/product-list.component';
+import { ProductForm } from './pages/product-form/product-form.component';
+import { PurchasesList } from './pages/purchases-list/purchases-list';
+import { PurchaseForm } from './pages/purchase-form/purchase-form';
+import { UsersList } from './pages/users-list/users-list';
+import { UserForm } from './pages/user-form/user-form';
 
 
 export const routes: Routes = [

@@ -2,8 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { User } from '../models/user.model';
-import { UserService } from '../services/user';
+import { User } from '../../models/user.model';
+import { UserService } from '../../services/user';
 
 @Component({
   selector: 'app-user-form',

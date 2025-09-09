@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
-import { ProductService } from '../services/product';
-import { ProductDTO } from '../models/product.model';
+import { ProductService } from '../../services/product';
+import { ProductDTO } from '../../models/product.model';
 
 @Component({
   selector: 'app-products-list',
@@ -32,7 +32,7 @@ export class ProductsList implements OnInit {
   constructor(private service: ProductService) {}
   ngOnInit() { this.load(); }
   load() {
-    this.service.getAll().subscribe(res => this.products = res);
+    this.service.getAll().subscribe( res => this.products = res);
   }
   delete(id: number) {
     if (confirm('Sicuro di eliminare?')) {

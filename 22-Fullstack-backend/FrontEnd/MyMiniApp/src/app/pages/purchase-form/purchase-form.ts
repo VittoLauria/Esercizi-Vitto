@@ -2,12 +2,12 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { Product } from '../models/product.model';
-import { Purchase } from '../models/purchase.model';
-import { User } from '../models/user.model';
-import { ProductService } from '../services/product';
-import { PurchaseService } from '../services/purchase';
-import { UserService } from '../services/user';
+import { Product } from '../../models/product.model';
+import { Purchase } from '../../models/purchase.model';
+import { User } from '../../models/user.model';
+import { ProductService } from '../../services/product';
+import { PurchaseService } from '../../services/purchase';
+import { UserService } from '../../services/user';
 
 @Component({
   selector: 'app-purchase-form',
@@ -48,7 +48,7 @@ export class PurchaseForm implements OnInit {
  ) {}
 
  ngOnInit() {
-  this.userService.getAll().subscribe(u => this.user = u);
+  this.userService.getAll().subscribe(u => this.users = u);
   this.productService.getAll().subscribe(p => this.products = p.map(pr => ({
     id: pr.id, name: pr.name, price: pr.price, categoryId: 0
   })));
@@ -73,8 +73,3 @@ export class PurchaseForm implements OnInit {
  }
 }
 
-
-
-
-
-}

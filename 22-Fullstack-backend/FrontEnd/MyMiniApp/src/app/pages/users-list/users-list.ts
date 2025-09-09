@@ -2,8 +2,8 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { User } from '../models/user.model';
-import { UserService } from '../services/user';
+import { User } from '../../models/user.model';
+import { UserService } from '../../services/user';
 
 
 @Component({
@@ -26,7 +26,7 @@ import { UserService } from '../services/user';
         </td>
       </tr>
     </table>
-    ``
+  `
   
 })
 export class UsersList implements OnInit {
