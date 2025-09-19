@@ -1,0 +1,6 @@
+Scrivi un programma che:
+1.Definisci una classe studente con proprieta Nome e Voto.
+2.Crea un oggetto studente prendendo il nome e il voto da input console.
+3.Salva le informazione in una file studente.txt nel formato:
+Nome: ....
+Voto: ....

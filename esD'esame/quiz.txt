@@ -1,0 +1,151 @@
+Quiz
+
+1. In un file Markdown, per creare un titolo di livello 1 si usa: 
+A) # Titolo X
+B) ## Titolo 
+C) === Titolo
+
+2. Quale metodo della classe Console serve per leggere un input da tastiera? 
+A) Console.WriteLine() 
+B) Console.ReadLine() X
+C) Console.Input()
+
+3. In C#, il tipo int rappresenta: 
+A) Numeri decimali 
+B) Numeri interi X
+C) Stringhe di testo
+
+4. Quale valore massimo può contenere un byte? 
+A) 127 
+B) 255 X
+C) 1024 
+
+5. L’operatore % in C# serve per: 
+A) Divisione intera 
+B) Modulo X
+C) Moltiplicazione
+
+6. Quale di questi è un operatore logico? 
+A) && x
+B) ++ 
+C) =
+
+7. if (x > 5) significa: 
+A) Esegue il blocco se x è maggiore di 5 X
+B) Esegue sempre 
+C) Esegue se x è minore di 5
+
+8. Qual è la struttura base di un ciclo for? 
+A) for (condizione) 
+B) for (inizializzazione; condizione; incremento) X
+C) for each (elemento in collezione)
+
+9. Il ciclo while continua finché: 
+A) La condizione è falsa 
+B) La condizione è vera X
+C) Non ha condizione
+
+10. Il ciclo do … while: 
+A) Non viene mai eseguito 
+B) Esegue il blocco almeno una volta X
+C) È identico al for
+
+11. Per uscire da un ciclo si usa: 
+A) return 
+B) break X
+C) continue
+
+12. Per saltare alla prossima iterazione si usa: 
+A) break 
+B) skip 
+C) continue X
+
+13. In Markdown, per una lista numerata si usa: 
+A) - elemento 
+B) * elemento 
+C) 1. elemento X
+
+14. Console.WriteLine("Ciao"); cosa fa? 
+A) Scrive su file 
+B) Stampa a schermo e va a capo X
+C) Stampa a schermo senza capo
+
+15. Quale tipo rappresenta un valore booleano? 
+A) bool X
+B) bit 
+C) boolean
+
+16. Un float in C# ha precisione: 
+A) Singola (32 bit) X
+B) Doppia (64 bit) 
+C) Intera
+
+17. true && false restituisce: 
+A) true 
+B) false X
+C) null 
+
+18. true || false restituisce: 
+A) true X
+B) false 
+C) 0
+
+19. if (x == 10) usa l’operatore: 
+A) Assegnazione 
+B) Confronto di uguaglianza X
+C) Confronto di tipo
+
+20. for(int i=0; i<5; i++) quante volte esegue il ciclo? 
+A) 4 
+B) 5 X
+C) 6
+
+21. x++ significa: 
+A) Decrementa di 1 
+B) Incrementa di 1 X
+C) Moltiplica per 2
+
+22. Quale simbolo serve per concatenare stringhe? 
+A) + 
+B) & 
+C) . X
+
+23. if-else serve per: 
+A) Creare funzioni 
+B) Gestire scelte alternative X
+C) Creare cicli
+
+24. In Markdown, per inserire codice inline: 
+A) """ codice """ 
+B) `codice` X
+C) << codice >>
+
+25. In C#, var x = 5; significa: 
+A) Dichiarazione con tipo esplicito 
+B) Tipo dedotto automaticamente dal compilatore X
+C) Variabile dinamica
+
+26. Qual è il valore di 10 % 3? 
+A) 1 X
+B) 3 
+C) 0
+
+27. Console.ReadKey(): 
+A) Legge un carattere X
+B) Legge una stringa 
+C) Stampa una stringa
+
+28. Per commentare una riga in C#: 
+A) # commento 
+B) // commento X
+C) /* commento */
+
+29. Quale operatore serve per l’uguaglianza? 
+A) = 
+B) == X
+C) === ->
+
+30. Qual è la differenza tra while e do-while? 
+A) Nessuna 
+B) do-while esegue sempre almeno una volta X
+C) while non ha condizione ->
