@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\esD'esame\\esD'esame.csproj": {}
+    "/Users/vittolauri19/Documents/Esercizi-Vitto/esDesame/esD'esame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\esD'esame\\esD'esame.csproj": {
+    "/Users/vittolauri19/Documents/Esercizi-Vitto/esDesame/esD'esame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\esD'esame\\esD'esame.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/esDesame/esD'esame.csproj",
         "projectName": "esD'esame",
-        "projectPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\esD'esame\\esD'esame.csproj",
-        "packagesPath": "C:\\Users\\devops3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devops3\\Documents\\Esercizi-Vitto\\esD'esame\\obj\\",
+        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/esDesame/esD'esame.csproj",
+        "packagesPath": "/Users/vittolauri19/.nuget/packages/",
+        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/esDesame/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\devops3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -62,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
