@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito3-elencoPartecipanti/compito3-elencoPartecipanti.csproj",
+      "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito3-elencoPartecipanti/compito3-elencoPartecipanti.csproj",
       "projectName": "compito3-elencoPartecipanti",
-      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito3-elencoPartecipanti/compito3-elencoPartecipanti.csproj",
+      "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito3-elencoPartecipanti/compito3-elencoPartecipanti.csproj",
       "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito3-elencoPartecipanti/obj/",
+      "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito3-elencoPartecipanti/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

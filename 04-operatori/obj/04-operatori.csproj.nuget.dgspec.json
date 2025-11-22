@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/04-operatori/04-operatori.csproj": {}
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/04-operatori/04-operatori.csproj": {}
   },
   "projects": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/04-operatori/04-operatori.csproj": {
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/04-operatori/04-operatori.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/04-operatori/04-operatori.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/04-operatori/04-operatori.csproj",
         "projectName": "04-operatori",
-        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/04-operatori/04-operatori.csproj",
+        "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/04-operatori/04-operatori.csproj",
         "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/04-operatori/obj/",
+        "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/04-operatori/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

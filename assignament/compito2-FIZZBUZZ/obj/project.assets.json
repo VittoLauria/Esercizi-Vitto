@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito2-FIZZBUZZ/compito2-FIZZBUZZ.csproj",
+      "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito2-FIZZBUZZ/compito2-FIZZBUZZ.csproj",
       "projectName": "compito2-FIZZBUZZ",
-      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito2-FIZZBUZZ/compito2-FIZZBUZZ.csproj",
+      "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito2-FIZZBUZZ/compito2-FIZZBUZZ.csproj",
       "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito2-FIZZBUZZ/obj/",
+      "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito2-FIZZBUZZ/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito4-Format/compito4-Format.csproj": {}
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito4-Format/compito4-Format.csproj": {}
   },
   "projects": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito4-Format/compito4-Format.csproj": {
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito4-Format/compito4-Format.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito4-Format/compito4-Format.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito4-Format/compito4-Format.csproj",
         "projectName": "compito4-Format",
-        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito4-Format/compito4-Format.csproj",
+        "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito4-Format/compito4-Format.csproj",
         "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito4-Format/obj/",
+        "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito4-Format/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

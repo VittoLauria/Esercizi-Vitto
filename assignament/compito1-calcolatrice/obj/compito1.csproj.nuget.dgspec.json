@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito1-calcolatrice/compito1.csproj": {}
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito1-calcolatrice/compito1.csproj": {}
   },
   "projects": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito1-calcolatrice/compito1.csproj": {
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito1-calcolatrice/compito1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito1-calcolatrice/compito1.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito1-calcolatrice/compito1.csproj",
         "projectName": "compito1",
-        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito1-calcolatrice/compito1.csproj",
+        "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito1-calcolatrice/compito1.csproj",
         "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito1-calcolatrice/obj/",
+        "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito1-calcolatrice/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

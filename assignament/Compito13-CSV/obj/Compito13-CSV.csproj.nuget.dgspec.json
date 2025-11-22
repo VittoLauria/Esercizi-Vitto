@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/Compito13-CSV/Compito13-CSV.csproj": {}
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/Compito13-CSV/Compito13-CSV.csproj": {}
   },
   "projects": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/Compito13-CSV/Compito13-CSV.csproj": {
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/Compito13-CSV/Compito13-CSV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/Compito13-CSV/Compito13-CSV.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/Compito13-CSV/Compito13-CSV.csproj",
         "projectName": "Compito13-CSV",
-        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/Compito13-CSV/Compito13-CSV.csproj",
+        "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/Compito13-CSV/Compito13-CSV.csproj",
         "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/Compito13-CSV/obj/",
+        "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/Compito13-CSV/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

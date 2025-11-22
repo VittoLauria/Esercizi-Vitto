@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito6-assegnaPassword/compito6-assegnaPassword.csproj",
+      "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito6-assegnaPassword/compito6-assegnaPassword.csproj",
       "projectName": "compito6-assegnaPassword",
-      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito6-assegnaPassword/compito6-assegnaPassword.csproj",
+      "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito6-assegnaPassword/compito6-assegnaPassword.csproj",
       "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito6-assegnaPassword/obj/",
+      "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito6-assegnaPassword/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

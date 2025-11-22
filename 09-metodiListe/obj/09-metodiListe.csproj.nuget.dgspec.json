@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/09-metodiListe/09-metodiListe.csproj": {}
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/09-metodiListe/09-metodiListe.csproj": {}
   },
   "projects": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/09-metodiListe/09-metodiListe.csproj": {
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/09-metodiListe/09-metodiListe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/09-metodiListe/09-metodiListe.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/09-metodiListe/09-metodiListe.csproj",
         "projectName": "09-metodiListe",
-        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/09-metodiListe/09-metodiListe.csproj",
+        "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/09-metodiListe/09-metodiListe.csproj",
         "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/09-metodiListe/obj/",
+        "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/09-metodiListe/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

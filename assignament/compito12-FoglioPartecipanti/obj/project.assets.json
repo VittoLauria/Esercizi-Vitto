@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12-FoglioPartecipanti/compito12-FoglioPartecipanti.csproj",
+      "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito12-FoglioPartecipanti/compito12-FoglioPartecipanti.csproj",
       "projectName": "compito12-FoglioPartecipanti",
-      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12-FoglioPartecipanti/compito12-FoglioPartecipanti.csproj",
+      "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito12-FoglioPartecipanti/compito12-FoglioPartecipanti.csproj",
       "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito12-FoglioPartecipanti/obj/",
+      "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito12-FoglioPartecipanti/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

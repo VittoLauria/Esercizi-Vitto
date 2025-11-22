@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/05-Condizioni/05-Condizioni.csproj",
+      "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/05-Condizioni/05-Condizioni.csproj",
       "projectName": "05-Condizioni",
-      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/05-Condizioni/05-Condizioni.csproj",
+      "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/05-Condizioni/05-Condizioni.csproj",
       "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/05-Condizioni/obj/",
+      "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/05-Condizioni/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

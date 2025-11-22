@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/02_tipi-di-dati/02_tipi-di-dati.csproj",
+      "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/02_tipi-di-dati/02_tipi-di-dati.csproj",
       "projectName": "02_tipi-di-dati",
-      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/02_tipi-di-dati/02_tipi-di-dati.csproj",
+      "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/02_tipi-di-dati/02_tipi-di-dati.csproj",
       "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/02_tipi-di-dati/obj/",
+      "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/02_tipi-di-dati/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

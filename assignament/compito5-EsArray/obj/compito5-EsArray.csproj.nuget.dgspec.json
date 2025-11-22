@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito5-EsArray/compito5-EsArray.csproj": {}
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito5-EsArray/compito5-EsArray.csproj": {}
   },
   "projects": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito5-EsArray/compito5-EsArray.csproj": {
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito5-EsArray/compito5-EsArray.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito5-EsArray/compito5-EsArray.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito5-EsArray/compito5-EsArray.csproj",
         "projectName": "compito5-EsArray",
-        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito5-EsArray/compito5-EsArray.csproj",
+        "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito5-EsArray/compito5-EsArray.csproj",
         "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito5-EsArray/obj/",
+        "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito5-EsArray/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito10-sorteggioFunz/compito10-sorteggioFunz.csproj": {}
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito10-sorteggioFunz/compito10-sorteggioFunz.csproj": {}
   },
   "projects": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito10-sorteggioFunz/compito10-sorteggioFunz.csproj": {
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito10-sorteggioFunz/compito10-sorteggioFunz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito10-sorteggioFunz/compito10-sorteggioFunz.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito10-sorteggioFunz/compito10-sorteggioFunz.csproj",
         "projectName": "compito10-sorteggioFunz",
-        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito10-sorteggioFunz/compito10-sorteggioFunz.csproj",
+        "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito10-sorteggioFunz/compito10-sorteggioFunz.csproj",
         "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito10-sorteggioFunz/obj/",
+        "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito10-sorteggioFunz/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

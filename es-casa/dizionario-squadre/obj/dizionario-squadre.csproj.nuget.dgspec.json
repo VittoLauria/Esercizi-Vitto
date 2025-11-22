@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/dizionario-squadre.csproj": {}
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/es-casa/dizionario-squadre/dizionario-squadre.csproj": {}
   },
   "projects": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/dizionario-squadre.csproj": {
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/es-casa/dizionario-squadre/dizionario-squadre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/dizionario-squadre.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/es-casa/dizionario-squadre/dizionario-squadre.csproj",
         "projectName": "dizionario-squadre",
-        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/dizionario-squadre.csproj",
+        "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/es-casa/dizionario-squadre/dizionario-squadre.csproj",
         "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/dizionario-squadre/obj/",
+        "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/es-casa/dizionario-squadre/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

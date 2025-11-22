@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito9-CalcConFunzioni/compito9-CalcConFunzioni.csproj",
+      "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito9-CalcConFunzioni/compito9-CalcConFunzioni.csproj",
       "projectName": "compito9-CalcConFunzioni",
-      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito9-CalcConFunzioni/compito9-CalcConFunzioni.csproj",
+      "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito9-CalcConFunzioni/compito9-CalcConFunzioni.csproj",
       "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/assignament/compito9-CalcConFunzioni/obj/",
+      "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/assignament/compito9-CalcConFunzioni/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

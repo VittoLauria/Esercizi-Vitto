@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/06-Cicli/06-Cicli.csproj": {}
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/06-Cicli/06-Cicli.csproj": {}
   },
   "projects": {
-    "/Users/vittolauri19/Documents/Esercizi-Vitto/06-Cicli/06-Cicli.csproj": {
+    "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/06-Cicli/06-Cicli.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/06-Cicli/06-Cicli.csproj",
+        "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/06-Cicli/06-Cicli.csproj",
         "projectName": "06-Cicli",
-        "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/06-Cicli/06-Cicli.csproj",
+        "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/06-Cicli/06-Cicli.csproj",
         "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-        "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/06-Cicli/obj/",
+        "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/06-Cicli/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"

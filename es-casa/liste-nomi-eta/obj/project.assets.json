@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/liste-nomi-eta.csproj",
+      "projectUniqueName": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/es-casa/liste-nomi-eta/liste-nomi-eta.csproj",
       "projectName": "liste-nomi-eta",
-      "projectPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/liste-nomi-eta.csproj",
+      "projectPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/es-casa/liste-nomi-eta/liste-nomi-eta.csproj",
       "packagesPath": "/Users/vittolauri19/.nuget/packages/",
-      "outputPath": "/Users/vittolauri19/Documents/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/",
+      "outputPath": "/Users/vittolauri19/Documents/LAVORO/Esercizi-Vitto/es-casa/liste-nomi-eta/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vittolauri19/.nuget/NuGet/NuGet.Config"
